@@ -1,0 +1,2771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+      The Barnum & Bailey Greatest Show on Earth Songster | Project Gutenberg
+    </title>
+    <link rel="icon" href="images/cover.jpg" type="image/x-cover">
+    <style>
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+    h1,h2,h3,h4,h5,h6 {
+    text-align: center; /* all headings centered */
+    clear: both;
+}
+
+p {
+    margin-top: .51em;
+    text-align: justify;
+    margin-bottom: .49em;
+}
+
+.p2       {margin-top: 2em;}
+.p4       {margin-top: 4em;}
+.p6       {margin-top: 6em;}
+
+hr {
+    width: 33%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 33.5%;
+    margin-right: 33.5%;
+    clear: both;
+}
+
+hr.tb   {width: 45%; margin-left: 27.5%; margin-right: 27.5%;}
+hr.chap {width: 65%; margin-left: 17.5%; margin-right: 17.5%;}
+@media print { hr.chap {display: none; visibility: hidden;} }
+hr.full {width: 95%; margin-left: 2.5%; margin-right: 2.5%;}
+
+hr.r5  {width: 5%; margin-top: 1em; margin-bottom: 1em; margin-left: 47.5%; margin-right: 47.5%;}
+hr.r65 {width: 65%; margin-top: 3em; margin-bottom: 3em; margin-left: 17.5%; margin-right: 17.5%;}
+
+div.chapter {page-break-before: always;}
+h2.nobreak  {page-break-before: avoid;}
+
+ul.index { list-style-type: none; }
+li.ifrst {
+    margin-top: 1em;
+    text-indent: -2em;
+    padding-left: 1em;
+}
+li.indx  {
+    margin-top: .5em;
+    text-indent: -2em;
+    padding-left: 1em;
+}
+li.isub1 {
+    text-indent: -2em;
+    padding-left: 2em;
+}
+li.isub2 {
+    text-indent: -2em;
+    padding-left: 3em;
+}
+li.isub3 {
+    text-indent: -2em;
+    padding-left: 4em;
+}
+li.isub4 {
+    text-indent: -2em;
+    padding-left: 5em;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+table.autotable    { border-collapse: collapse; }
+table.autotable td,
+table.autotable th { padding: 0.25em; }
+
+.tdl      {text-align: left;}
+.tdr      {text-align: right;}
+.tdc      {text-align: center;}
+
+.pagenum { /* uncomment the next line for invisible page numbers */
+    /*  visibility: hidden;  */
+    position: absolute;
+    left: 92%;
+    font-size: small;
+    text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-indent: 0;
+} /* page numbers */
+
+.linenum {
+    position: absolute;
+    top: auto;
+    left: 4%;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+} /* poetry number */
+
+.blockquot {
+    margin-left: 5%;
+    margin-right: 10%;
+    font-size: 80%;
+}
+
+.sidenote {
+    width: 20%;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    padding-left: .5em;
+    padding-right: .5em;
+    margin-left: 1em;
+    float: right;
+    clear: right;
+    margin-top: 1em;
+    font-size: small;
+    color: black;
+    background: #eeeeee;
+    border: 1px dashed;
+}
+
+.bb       {border-bottom: 2px solid;}
+
+.bl       {border-left: 2px solid;}
+
+.bt       {border-top: 2px solid;}
+
+.br       {border-right: 2px solid;}
+
+.bbox     {border: 2px solid;}
+
+.center   {text-align: center;}
+
+.right    {text-align: right;}
+
+.smcap    {font-variant: small-caps;}
+
+.allsmcap {font-variant: small-caps; text-transform: lowercase;}
+
+.u        {text-decoration: underline;}
+
+.gesperrt
+{
+    letter-spacing: 0.2em;
+    margin-right: -0.2em;
+}
+
+em.gesperrt
+{
+    font-style: normal;
+}
+
+.caption  {font-weight: bold;}
+
+/* Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+img.w100 {width: 100%;}
+
+
+.figcenter {
+    margin: auto;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+
+/* Footnotes */
+.footnotes        {border: 1px dashed;}
+
+.footnote         {margin-left: 10%; margin-right: 10%; font-size: 0.9em;}
+
+.footnote .label  {position: absolute; right: 84%; text-align: right;}
+
+.fnanchor {
+    vertical-align: super;
+    font-size: .8em;
+    text-decoration:
+    none;
+}
+
+/* Poetry */
+/* uncomment the next line for centered poetry */
+/* .poetry-container {display: flex; justify-content: center;} */
+.poetry-container {text-align: center;}
+.poetry           {text-align: left; margin-left: 5%; margin-right: 5%;}
+.poetry .stanza   {margin: 1em auto;}
+.poetry .verse    {text-indent: -3em; padding-left: 3em;}
+
+/* Transcriber's notes */
+.transnote {background-color: #E6E6FA;
+    color: black;
+    font-size:small;
+    padding:0.5em;
+    margin-bottom:5em;
+    font-family:sans-serif, serif;
+}
+
+/* overrides of basic settings */
+p { text-indent: 1.5em;}
+
+table.autotable td,
+table.autotable th { padding: .3em; }
+
+.bbox     { padding: 2em;}
+
+ul { list-style-type: none; }
+
+.footnote         {
+                   padding-left: 1.5em;
+                   text-indent: -1.5em;}
+
+/* comment the next line for non-centered poetry */
+.poetry-container {display: flex; justify-content: center;}
+
+.x-ebookmaker .poetry {display: block;}
+
+.biblio    {list-style-type: none;
+            padding-left: 2em;
+            text-indent: -2em !important;}
+
+.noindent {text-indent: 0em}
+
+.center   {text-align: center;
+           text-indent: 0;}
+
+.credit   {text-align: right;
+           margin-top: -0.5em;}
+
+.hang { padding-left:1.5em; text-indent:-1.5em; }
+
+.ph2       {margin-top: 2em;
+           text-align: center;
+           font-size: 1.5em;
+           text-indent: 0em;
+           font-weight: bold; }
+
+.ph3       {margin-top: 1em;
+           text-align: center;
+           font-size: 1.2em;
+           text-indent: 0em;
+           font-weight: bold; }
+
+
+.ml       {margin-left: 1em;}
+
+/* Poetry indents */
+.poetry .indent0 {text-indent: -3em;}
+.poetry .indent10 {text-indent: 2em;}
+.poetry .indent11 {text-indent: 2.5em;}
+.poetry .indent12 {text-indent: 3em;}
+.poetry .indent13 {text-indent: 3.5em;}
+.poetry .indent14 {text-indent: 4em;}
+.poetry .indent15 {text-indent: 4.5em;}
+.poetry .indent2 {text-indent: -2em;}
+.poetry .indent22 {text-indent: 8em;}
+.poetry .indent23 {text-indent: 8.5em;}
+.poetry .indent4 {text-indent: -1em;}
+.poetry .indent6 {text-indent: 0em;}
+.poetry .indent8 {text-indent: 1em;}
+.poetry .indent9 {text-indent: 1.5em;}
+
+/* Illustration classes */
+.illowp53 {width: 100%;}
+.x-ebookmaker .illowp53 {width: 53%;}
+
+
+    </style>
+</head>
+<body>
+<p style='text-align:center; font-size:1.2em; font-weight:bold'>The Project Gutenberg eBook of The Barnum &amp; Bailey Greatest Show on Earth songster, by Various</p>
+<div style='display:block; margin:1em 0'>
+This eBook is for the use of anyone anywhere in the United States and
+most other parts of the world at no cost and with almost no restrictions
+whatsoever. You may copy it, give it away or re-use it under the terms
+of the Project Gutenberg License included with this eBook or online
+at <a href="https://www.gutenberg.org">www.gutenberg.org</a>. If you
+are not located in the United States, you will have to check the laws of the
+country where you are located before using this eBook.
+</div>
+
+<p style='display:block; margin-top:1em; margin-bottom:1em; margin-left:2em; text-indent:-2em'>Title: The Barnum &amp; Bailey Greatest Show on Earth songster</p>
+<p style='display:block; margin-top:1em; margin-bottom:0; margin-left:2em; text-indent:-2em'>Author: Various</p>
+<p style='display:block; text-indent:0; margin:1em 0'>Release Date: April 2, 2023 [eBook #70442]</p>
+<p style='display:block; text-indent:0; margin:1em 0'>Language: English</p>
+  <p style='display:block; margin-top:1em; margin-bottom:0; margin-left:2em; text-indent:-2em; text-align:left'>Produced by: David Edwards, Krista Zaleski and the Online Distributed Proofreading Team at https://www.pgdp.net (Images courtesy of the Digital Library@Villanova University.)</p>
+<div style='margin-top:2em; margin-bottom:4em'>*** START OF THE PROJECT GUTENBERG EBOOK THE BARNUM &AMP; BAILEY GREATEST SHOW ON EARTH SONGSTER ***</div>
+
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<figure class="figcenter illowp53" id="cover" style="max-width: 115.5em;">
+  <img class="w100" src="images/cover.jpg" alt="">
+  <figcaption class="caption"><h1>The Barnum &amp; Bailey<br>
+
+Greatest Show on Earth<br>
+
+Songster</h1></figcaption>
+</figure>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_1">[Pg 1]</span></p>
+
+<p class="ph2"><span class="smcap">Clown Song Book.</span></p>
+</div>
+<h2>CONTENTS</h2>
+
+
+<table class="autotable">
+<tr>
+<td class="tdl"><a href="#IN_A_SNUG_LITTLE_HOME_OF_YOUR_OWN">IN A SNUG LITTLE HOME OF YOUR OWN.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#A_DEAR_LITTLE_FACE_AT_THE_WINDOW">A DEAR LITTLE FACE AT THE WINDOW.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#I_DO_LOVE_YOU">I DO LOVE YOU!</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#TO_ERR_IS_HUMAN_TO_FORGIVE_DIVINE">TO ERR IS HUMAN, TO FORGIVE DIVINE!</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#DONT_BEAR_ANY_ILL_FEELING">DON’T BEAR ANY ILL FEELING.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#BACK_TO_THE_OLD_HOME_AGAIN">BACK TO THE OLD HOME AGAIN.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#A_BUNCH_OF_SHAMROCK_FROM_MY_DEAR_OLD_MOTHER">A BUNCH OF SHAMROCK FROM MY DEAR OLD MOTHER.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#THE_KICK-UP-A-ROW_BRIGADE">THE KICK-UP-A-ROW BRIGADE.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#BABYS_PRAYER">BABY’S PRAYER.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#A_PILLOW_FOR_THE_WANDERER">A PILLOW FOR THE WANDERER.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#A_KISS_FROM_YOUR_OWN_DEAR_WIFE">A KISS FROM YOUR OWN DEAR WIFE.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#HER_PAPA_WAS_THERE">HER PAPA WAS THERE!</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#ALWAYS_MIND_YOUR_SISTER_JENNIE">ALWAYS MIND YOUR SISTER, JENNIE.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#I_HANDED_IT_OVER_TO_RILEY">I HANDED IT OVER TO RILEY.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#A_MOTHER_IS_THE_TRUEST_FRIEND_OF_ALL">A MOTHER IS THE TRUEST FRIEND OF ALL.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#OH_MR_HITCHIN">OH! MR. HITCHIN!</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#KISS_MY_DEAR_OLD_MOTHER_JACK">KISS MY DEAR OLD MOTHER, JACK.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#A_MOTHERS_WELCOME">A MOTHER’S WELCOME.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#THE_LAND_OF_DREAMS">THE LAND OF DREAMS.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#THE_SAME_SWEET_BELLS_ARE_RINGING">THE SAME SWEET BELLS ARE RINGING.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#HE_NEVER_CARES_TO_WANDER_FROM_HIS_OWN_FIRESIDE">HE NEVER CARES TO WANDER FROM HIS OWN FIRESIDE.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#THEY_ARE_THE_BEST_FRIENDS_OF_ALL">THEY ARE THE BEST FRIENDS OF ALL.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#ONLY_A_LITTLE_YALLER_DOG">ONLY A LITTLE YALLER DOG.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#THE_SHIP_I_LOVE">THE SHIP I LOVE.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#THE_OLD_OLD_FRIENDS_IN_THE_OLD_OLD_HOME">THE OLD, OLD FRIENDS, IN THE OLD, OLD HOME.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#DOWN_AT_THE_FARM-YARD_GATE">DOWN AT THE FARM-YARD GATE.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#SHE_LEFT_THE_MAN_WHO_LOVED_HER_FOR_ANOTHER">SHE LEFT THE MAN WHO LOVED HER FOR ANOTHER.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#SCENES_FROM_THE_DRAMA_OF_LIFE">SCENES FROM THE DRAMA OF LIFE.</a></td>
+</tr>
+<tr>
+<td class="tdl"><a href="#ACTIONS_SPEAK_LOUDER_THAN_WORDS">ACTIONS SPEAK LOUDER THAN WORDS.</a></td>
+</tr>
+</table>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="IN_A_SNUG_LITTLE_HOME_OF_YOUR_OWN">IN A SNUG LITTLE HOME OF YOUR OWN.</h2>
+</div>
+
+<p class="center">Words and music by Felix McGlennon.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">What are the fashions and follies of life!</div>
+    <div class="verse indent2">Only an empty dream;</div>
+    <div class="verse indent0">Only a burden of struggle and strife.</div>
+    <div class="verse indent2">As we drift adown the stream.</div>
+    <div class="verse indent0">A fig for your worldly pleasures,</div>
+    <div class="verse indent2">How very soon they cloy,</div>
+    <div class="verse indent0">But there ’mongst your sweet home treasures,</div>
+    <div class="verse indent2">You can find purest joy!</div>
+  </div>
+</div>
+</div>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0"><span class="smcap">Chorus.</span>—In a snug little home of your own,</div>
+    <div class="verse indent9">A snug little home of your own,</div>
+    <div class="verse indent11">With smiling faces ’round,</div>
+    <div class="verse indent11">True happiness is found,</div>
+    <div class="verse indent9">In a snug little home of your own.</div>
+  </div>
+</div>
+</div>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Seeking excitement, you often may go</div>
+    <div class="verse indent2">Out with the busy throng,</div>
+    <div class="verse indent0">And like a butterfly flit to and fro,</div>
+    <div class="verse indent2">As you sing a worldly song;</div>
+    <div class="verse indent0">When pleasure’s bright flame is burning,</div>
+    <div class="verse indent2">Into the blaze you fly,</div>
+    <div class="verse indent0">And then from temptation turning,</div>
+    <div class="verse indent2">For purer life you sigh.—<span class="smcap">Chorus.</span></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">When honest love in your heart finds a place,</div>
+    <div class="verse indent2">Bright as the sun’s your life;</div>
+    <div class="verse indent0">Plans for the future, in fancy you trace,</div>
+    <div class="verse indent2">With a sweet and pure young wife,</div>
+    <div class="verse indent0">You’re hopefully, tenderly gazing</div>
+    <div class="verse indent2">Into futurity—</div>
+    <div class="verse indent0">Bright castles in the air you’re building,</div>
+    <div class="verse indent2">Thinking when you will be—<span class="smcap">Chorus</span>.</div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1892, by <span class="smcap">Frank Tousey</span>. The complete words
+and music of this song will be sent by mail for 20 cents.
+Address, <span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North
+Moore Street, New York. Catalogues sent free upon application.</p>
+</div>
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_2">[Pg 2]</span></p>
+
+<h2 class="nobreak" id="A_DEAR_LITTLE_FACE_AT_THE_WINDOW">A DEAR LITTLE FACE AT THE WINDOW.</h2>
+</div>
+
+<p class="center">Written and composed by Charles L. Miller.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">When homeward I stray at the close of the day,</div>
+    <div class="verse indent2">So wearied with labor and care,</div>
+    <div class="verse indent0">My heart soon grows light, with the vision so bright,</div>
+    <div class="verse indent2">Of the face that is waiting me there,</div>
+    <div class="verse indent0">As she stands in the window with mother close by,</div>
+    <div class="verse indent2">Who softly strokes each little curl;</div>
+    <div class="verse indent0">And soon as she sees me, so gladly she’ll cry,</div>
+    <div class="verse indent2">My own little dear baby girl!</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">’Tis a dear little face at the window,</div>
+    <div class="verse indent2">With a smile and a heart full of glee;</div>
+    <div class="verse indent0">More precious than pearl, is my dear baby girl,</div>
+    <div class="verse indent2">Who waits at the window for me!</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">How often I’ve thought of the joy she has brought,</div>
+    <div class="verse indent2">To home and to mother and me,</div>
+    <div class="verse indent0">Of one tearful day, when in sickness she lay,</div>
+    <div class="verse indent2">And we missed her sweet laughter so free,</div>
+    <div class="verse indent0">But the kind angels left her to our care and love,</div>
+    <div class="verse indent2">To brighten our home here below;</div>
+    <div class="verse indent0">And naught here on earth, or in Heaven above,</div>
+    <div class="verse indent2">Can equal our treasure, I know!—<span class="smcap">Chorus.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1893, by <span class="smcap">Frank Tousey</span>. The complete words
+and music of this song will be sent by mail for 10 cents.
+Address, <span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North
+Moore Street, New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="I_DO_LOVE_YOU">I DO LOVE YOU!</h2>
+</div>
+
+<p class="center">Written and composed by Felix McGlennon.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Molly has climbed on her Dada’s knee,</div>
+    <div class="verse indent2">Molly has something to say;</div>
+    <div class="verse indent0">Only to whisper “I love you, Dad,</div>
+    <div class="verse indent2">And think of you all the day!</div>
+    <div class="verse indent0">When you go out in the morning, Dad,</div>
+    <div class="verse indent2">Ah, how I long for the night;</div>
+    <div class="verse indent0">Then you come home to your Molly dear,</div>
+    <div class="verse indent2">And the house seems so cheerful and bright.”</div>
+<span class="pagenum" id="Page_3">[Pg 3]</span>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">I do love you, I do love you,</div>
+    <div class="verse indent0">You’ve bought a dolly for your little Molly with hair so bright and eyes so blue;</div>
+    <div class="verse indent0">I’ll give you a kiss, a sweet little kiss, and may be I’ll give you two!</div>
+    <div class="verse indent0">Oh, my Daddy, my dear old Daddy, I do love you!</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Molly has climbed on his shoulders broad,</div>
+    <div class="verse indent2">“Let us play horses, my Dad!”</div>
+    <div class="verse indent0">See how they scamper around the house,</div>
+    <div class="verse indent2">And Molly is oh, so glad!</div>
+    <div class="verse indent0">Slyly she peeps in his pockets then,</div>
+    <div class="verse indent2">Thinking that Dad cannot see;</div>
+    <div class="verse indent0">Ah, the young rogue knows there’s something there,</div>
+    <div class="verse indent2">And Molly is laughing with glee.—<span class="smcap">Chorus.</span></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Molly is tired of her romp at last,</div>
+    <div class="verse indent2">Dada must take her to bed,</div>
+    <div class="verse indent0">“Place little dolly beside me, please,”</div>
+    <div class="verse indent2">Now Molly her prayers has said.</div>
+    <div class="verse indent0">“Good-night, God bless you, my Dada dear,</div>
+    <div class="verse indent2">Kiss me, and kiss dolly too;</div>
+    <div class="verse indent0">I know you love little Molly, Dad,</div>
+    <div class="verse indent2">And you know that your Molly loves you.”—<span class="smcap">Chorus.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1894, by <span class="smcap">Frank Tousey</span>. The complete words
+and music of this song will be sent by mail for 20 cents.
+Address, <span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North
+Moore Street, New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="TO_ERR_IS_HUMAN_TO_FORGIVE_DIVINE">TO ERR IS HUMAN, TO FORGIVE DIVINE!</h2>
+</div>
+
+<p class="center">Written and composed by Felix McGlennon.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Craving, craving for pity, a brother stands</div>
+    <div class="verse indent2">Before the brother he wronged in days gone by;</div>
+    <div class="verse indent0">“Help me, help me, forgive all the painful past,</div>
+    <div class="verse indent2">I’m starving, brother, oh help me, or I die!”</div>
+    <div class="verse indent0">One is poor and lowly, one has shining gold,</div>
+    <div class="verse indent2">The wealthy brother looks with scornful eyes,</div>
+    <div class="verse indent0">Will he help the suppliant, will he e’er forgive?</div>
+    <div class="verse indent2">Oh! hearken to his words as he replies:</div>
+<p><span class="pagenum" id="Page_4">[Pg 4]</span></p>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">“I once was poor and struggling, you were honored in the land,</div>
+    <div class="verse indent0">I once was nearly starving, you had riches at command,</div>
+    <div class="verse indent0">I went to you so humbly, and I asked a helping hand,</div>
+    <div class="verse indent2">In my face you closed your door, oh, brother mine!</div>
+    <div class="verse indent0">Now I am rich and you are poor, shall I revengeful be?</div>
+    <div class="verse indent0">No! for the sake of old times when we prayed at mother’s knee,</div>
+    <div class="verse indent0">You’re still my brother, I’ll forgive, share my prosperity,</div>
+    <div class="verse indent2">To err is human, to forgive divine!”</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Brooding, brooding, alone in a darkened room,</div>
+    <div class="verse indent2">A poor old father is mourning for his child;</div>
+    <div class="verse indent0">Sadly, sadly, he thinks of the daughter fair,</div>
+    <div class="verse indent2">Who by the tempter from home had been beguiled.</div>
+    <div class="verse indent0">His eyes grow hot with tears, his heart grows hot with rage,</div>
+    <div class="verse indent2">He thinks of how the base betrayer came;</div>
+    <div class="verse indent0">A knock! the door is opened, his erring child is there,</div>
+    <div class="verse indent2">And to the floor she sinks in abject shame.</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">“Begone and quit my sight,” he cries in accents stern and grim,</div>
+    <div class="verse indent0">“You’ve streaked my hair with grey that day you fled away with him,</div>
+    <div class="verse indent0">You broke your poor old mother’s heart, her eyes in death are dim,</div>
+    <div class="verse indent2">Begone, you are no longer child of mine!”</div>
+    <div class="verse indent0">But his heart goes back with anguish to the child that he loved best,</div>
+    <div class="verse indent0">The daughter fair and stainless ere she left the parent nest,</div>
+    <div class="verse indent0">And for her dear dead mother’s sake he clasps her to his breast,</div>
+    <div class="verse indent2">To err is human, to forgive divine!</div>
+<p><span class="pagenum" id="Page_5">[Pg 5]</span></p>  </div>
+  <div class="stanza">
+    <div class="verse indent0">Stitching, stitching, in poverty and in pain,</div>
+    <div class="verse indent2">A woman’s toiling to earn her children bread;</div>
+    <div class="verse indent0">Daily, hourly, the needle ne’er seems to tire,</div>
+    <div class="verse indent2">Ah! slaves must work and their children must be fed.</div>
+    <div class="verse indent0">See her drunken husband, staggering in the room,</div>
+    <div class="verse indent2">“Curse you, give me money, I must drink!</div>
+    <div class="verse indent0">Come, now give the money, money, quick I say!”</div>
+    <div class="verse indent2">A blow, a kick, unconscious see her sink.</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">In drink besotted madness he rains on her kicks and blows,</div>
+    <div class="verse indent0">Till she lies there slowly dying, soon will end her earthly woes,</div>
+    <div class="verse indent0">And she feebly murmurs, “Harry, oh it darker, darker grows!”</div>
+    <div class="verse indent2">Then she babbles of the love of “Auld Lang Syne.”</div>
+    <div class="verse indent0">Crash! the officers of justice burst the door into the room,</div>
+    <div class="verse indent0">Will she speak the word and send her husband to a murd’rer’s doom?</div>
+    <div class="verse indent0">No! she loves still and silent bears her secret to the tomb—</div>
+    <div class="verse indent2">To err is human, to forgive divine!</div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1894, by <span class="smcap">Frank Tousey</span>. The complete words
+and music of this song will be sent by mail for 25 cents.
+Address, <span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North
+Moore Street, New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="DONT_BEAR_ANY_ILL_FEELING">DON’T BEAR ANY ILL FEELING.</h2>
+</div>
+
+<p class="center">By Felix McGlennon.</p>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">When your angry passions rise, there’s a maxim you should prize,</div>
+    <div class="verse indent2">“Never let the sun go down upon your wrath,”</div>
+    <div class="verse indent0">Let your quarrels fade away ere there dawns another day,</div>
+    <div class="verse indent2">Let the sun of peace and love illume your path.</div>
+    <div class="verse indent0">It may be the friend of years who has grieved you with his sneers,</div>
+    <div class="verse indent2">And your temper may the flame of hate have fanned,</div>
+    <div class="verse indent0">But the promptings of your heart will compel you ere you part,</div>
+    <div class="verse indent2">To say, as you extend a friendly hand:</div>
+<span class="pagenum" id="Page_6">[Pg 6]</span>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent6">Don’t bear any ill feeling, forget and forgive,</div>
+    <div class="verse indent6">Shake hands, let us be friendly as long as we live,</div>
+    <div class="verse indent6">Life is too short for hatred, shake hands and don’t say “Nay,”</div>
+    <div class="verse indent6">Or you may plead for forgiveness yourself in vain some day.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">You may have an only child who in life is growing wild,</div>
+    <div class="verse indent2">By companions from the straight path led astray,</div>
+    <div class="verse indent0">He may cause you dark disgrace, till you learn to hate his face,</div>
+    <div class="verse indent2">And with anger turn him from his home away,</div>
+    <div class="verse indent0">’Neath a parent’s bitter frown he may sink still deeper down,</div>
+    <div class="verse indent2">Ah, but lift him up and give him one more chance,</div>
+    <div class="verse indent0">Take him to your heart again and forget the bitter pain,</div>
+    <div class="verse indent2">Take him back and he will plead with tearful glance.—<span class="smcap">Chorus.</span></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">You may have a faithful wife, who is dearer far than life,</div>
+    <div class="verse indent2">Yet an angry word may rankle in her heart,</div>
+    <div class="verse indent0">Then your passions rise and rise, till the tears come in her eyes,</div>
+    <div class="verse indent2">And with hardened hearts you both decide to part,</div>
+    <div class="verse indent0">But a calm comes o’er the strife, as you gaze upon your wife,</div>
+    <div class="verse indent2">And your tho’ts go back to years of love and bliss,</div>
+    <div class="verse indent0">To the partner true and tried, ever faithful by your side,</div>
+    <div class="verse indent2">And you both plead for forgiveness with a kiss.—<span class="smcap">Chorus.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1894, by <span class="smcap">Frank Tousey</span>. The complete words
+and music of this song will be sent by mail for 20 cents.
+Address, <span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North
+Moore Street, New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="BACK_TO_THE_OLD_HOME_AGAIN">BACK TO THE OLD HOME AGAIN.</h2>
+</div>
+
+<p class="center">By Felix McGlennon.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There’s a place that will ne’er be forgotten by me,</div>
+    <div class="verse indent2">’Tis the cottage wherein I was born,</div>
+    <div class="verse indent0">And though years have rolled on, yet in fancy I see</div>
+    <div class="verse indent2">It there ’mid the tall waving corn.</div>
+    <div class="verse indent0">’Twas humble, ’twas lowly, but ah! it contained</div>
+    <div class="verse indent2">My nearest and dearest on earth,<span class="pagenum" id="Page_7">[Pg 7]</span></div>
+    <div class="verse indent0">And where’er I go, I am longing to be</div>
+    <div class="verse indent2">Once more in the home of my birth.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent4"><span class="smcap">Chorus.</span>—Back to the old home again,</div>
+    <div class="verse indent15">Down in the country lane,</div>
+    <div class="verse indent13">Back to the spot I’ve never forgot,</div>
+    <div class="verse indent15">Back to the old home again.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">The green ivy clustered around the old walls,</div>
+    <div class="verse indent2">The breath of sweet flowers filled the air,</div>
+    <div class="verse indent0">The birds built their nests in the cosy thatched roof,</div>
+    <div class="verse indent2">Their songs drove away every care;</div>
+    <div class="verse indent0">I’d roam through the meadows, I’d climb o’er the hill,</div>
+    <div class="verse indent2">In childhood’s sweet innocent glee,</div>
+    <div class="verse indent0">My life was all sunshine, no sorrow or care,</div>
+    <div class="verse indent2">Oh, how I am longing to be:           —<span class="smcap">Chorus.</span></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">I’ve seen many lands, but no place seemed so fair</div>
+    <div class="verse indent2">As that dear little old-fashioned cot,</div>
+    <div class="verse indent0">I’ve made many friends, but my dear parents’ love</div>
+    <div class="verse indent2">I’ve never, no, never forgot.</div>
+    <div class="verse indent0">They’re anxiously waiting to welcome me home—</div>
+    <div class="verse indent2">They’re eager their fond love to show—</div>
+    <div class="verse indent0">I’m tired of the wand’rings and trials of life,</div>
+    <div class="verse indent2">And so once again I will go:          —<span class="smcap">Chorus.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1894, by <span class="smcap">Frank Tousey</span>, and entered at
+Stationers’ Hall, London, England. The complete words and
+music of this song will be sent by mail for 20 cents. Address,
+<span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North Moore Street,
+New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="A_BUNCH_OF_SHAMROCK_FROM_MY_DEAR_OLD_MOTHER">A BUNCH OF SHAMROCK FROM MY DEAR OLD MOTHER.</h2>
+</div>
+
+<p class="center">Words and music by Monroe H. Rosenfeld.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">One day there came to me from far across the sea,</div>
+    <div class="verse indent2">A letter and its words I read with tears,</div>
+    <div class="verse indent0">It brought a gem so dear my lonely heart to cheer,</div>
+    <div class="verse indent2">And told of those I had not seen for years.</div>
+    <div class="verse indent0">They nevermore can part this treasure from my heart,</div>
+    <div class="verse indent2">It came from one who blessed it with a tear,</div>
+    <div class="verse indent0">It brought the joys of old, its hopes and bliss untold,</div>
+    <div class="verse indent2">This bunch of shamrock from my mother dear.</div>
+<p><span class="pagenum" id="Page_8">[Pg 8]</span></p>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">A bunch of shamrock from my dear old mother,</div>
+    <div class="verse indent0">A treasure dearer far than any other,</div>
+    <div class="verse indent0">Though faded it shall rest upon my loving breast,</div>
+    <div class="verse indent0">This bunch of shamrock from my dear old mother.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">I see the cabin now, my mother’s saddened brow,</div>
+    <div class="verse indent2">I hear the voice that whispered sweet good-bye,</div>
+    <div class="verse indent0">“Remember, lad,” said she, “and true and honest be,”</div>
+    <div class="verse indent2">Her words within my heart can never die.</div>
+    <div class="verse indent0">Though oft the world is sad, my heart is ever glad,</div>
+    <div class="verse indent2">I roam the vales again with happy cheer,</div>
+    <div class="verse indent0">Ah, mem’ries sweet awake, when in my hand I take,</div>
+    <div class="verse indent2">This bunch of shamrock from my mother dear.—<span class="smcap">Chorus.</span></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">That mother now is dead, but still the words she said,</div>
+    <div class="verse indent2">Will bloom within my heart like buds of spring,</div>
+    <div class="verse indent0">I know the daisies wave so gently o’er her grave,</div>
+    <div class="verse indent2">And ’round that spot the sweetest mem’ries cling.</div>
+    <div class="verse indent0">So dear to me shall be this gift from o’er the sea,</div>
+    <div class="verse indent2">And dearer far it grows from year to year,</div>
+    <div class="verse indent0">When life from me shall part I’ll keep upon my heart</div>
+    <div class="verse indent2">This bunch of shamrock from my mother dear.—<span class="smcap">Chorus.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1890, by <span class="smcap">Frank Tousey</span>. The complete words
+and music of this song will be sent by mail for 10 cents.
+Address, <span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North
+Moore Street, New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="THE_KICK-UP-A-ROW_BRIGADE">THE KICK-UP-A-ROW BRIGADE.</h2>
+</div>
+
+<p class="center">Written by Harry Boden and Gus Williams. Composed by Felix McGlennon.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">A week ago, this very night, with half a dozen more of good old pals—jolly old pals,</div>
+    <div class="verse indent0">We went up town, the usual place, for fun and jollity,</div>
+    <div class="verse indent0">The spot you know where fellows go when out upon a spree;</div>
+    <div class="verse indent0">Johnson we made leader of the band,</div>
+    <div class="verse indent0">He took us in hand, marched us off so grand,</div>
+    <div class="verse indent0">Arm in arm, we to each other clung,</div>
+    <div class="verse indent0">While every comic song he knew old Johnson loudly sung:</div>
+<p><span class="pagenum" id="Page_9">[Pg 9]</span></p>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent10">All of us did the same,</div>
+    <div class="verse indent10">All of us played the game;</div>
+    <div class="verse indent0">Every one was a good old chum, rum-ti-id-dly-um-ti-um!</div>
+    <div class="verse indent10">None of us cared a hang,</div>
+    <div class="verse indent10">How much noise we made,</div>
+    <div class="verse indent0">We were all boys, good boys, of the “Kick-up-a-row Brigade!”</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">We then went up the Bowery and soon were in the midst of all the fun—Bowery fun,</div>
+    <div class="verse indent0">It was both fast and furious, as you are well aware,</div>
+    <div class="verse indent0">We saw the elephant, the fox, the tiger and the bear,</div>
+    <div class="verse indent0">After which, the theatre we tried;</div>
+    <div class="verse indent0">Entrance was denied, we were put outside,</div>
+    <div class="verse indent0">Police then came to put matters right,</div>
+    <div class="verse indent0">When Johnson lost his temper and pulled off his coat to fight:—<span class="smcap">Chorus.</span></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">For half an hour we had what anyone might call a friendly scrap—a playful scrap,</div>
+    <div class="verse indent0">And language sweet and beautiful ascended to the skies;</div>
+    <div class="verse indent0">We’d broken noses, ditto hats and numerous black eyes;</div>
+    <div class="verse indent0">To the station house we all were borne,</div>
+    <div class="verse indent0">Ragged, bruised and torn, and the Judge next morn,</div>
+    <div class="verse indent0">Scratched his head, on Johnson fixed his gaze,</div>
+    <div class="verse indent0">And said, “Ten dollars fine, or take the usual thirty days”:—<span class="smcap">Chorus.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1894, by <span class="smcap">Frank Tousey</span>. Entered at
+Stationers’ Hall, London, England. The complete words and
+music of this song will be sent by mail for 20 cents. Address,
+<span class="smcap">Frank Tousey</span>, 34 and 36 North Moore Street, New York.
+Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="BABYS_PRAYER">BABY’S PRAYER.</h2>
+</div>
+
+<p class="center">By Felix McGlennon. Arranged by Chas. Page.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Baby was up with the lark this morn,</div>
+    <div class="verse indent2">Laughing in childish glee,</div>
+    <div class="verse indent0">Romping and rolling around the house,</div>
+    <div class="verse indent2">Climbing on dada’s knee,</div><span class="pagenum" id="Page_10">[Pg 10]</span>
+    <div class="verse indent0">But the shades of night are falling,</div>
+    <div class="verse indent2">And baby is tired with play;</div>
+    <div class="verse indent0">Softly he’s creeping to mama’s side,</div>
+    <div class="verse indent2">Gently he kneels to pray.</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Refrain.</span></p>
+    <div class="verse indent0">God bless mamma, God bless dada,</div>
+    <div class="verse indent2">God teach baby to do right;</div>
+    <div class="verse indent0">I’m tired and I’m sleepy, put me in my cot,</div>
+    <div class="verse indent2">Mamma and dada, good-night.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Baby was up with the lark this morn,</div>
+    <div class="verse indent2">Coaxing for just one kiss,</div>
+    <div class="verse indent0">Filling with sunshine our humble home,</div>
+    <div class="verse indent2">Filling our hearts with bliss,</div>
+    <div class="verse indent0">Ah! we seemed to see a vision</div>
+    <div class="verse indent2">Of angels so bright and fair,</div>
+    <div class="verse indent0">Hov’ring around with protecting wings,</div>
+    <div class="verse indent2">List’ning to baby’s prayer.—<span class="smcap">Refrain.</span></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Baby was up with the lark this morn,</div>
+    <div class="verse indent2">Filling our hearts with joy,</div>
+    <div class="verse indent0">Humbly we knelt and prayed to Heaven,</div>
+    <div class="verse indent2">“Spare us our baby boy,</div>
+    <div class="verse indent0">From the paths of sin, oh, save him,</div>
+    <div class="verse indent2">And guard him from every snare.</div>
+    <div class="verse indent0">Deign to look down in Thy infinite love,</div>
+    <div class="verse indent2">Hearken to baby’s prayer.”—<span class="smcap">Refrain.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1892, by <span class="smcap">Frank Tousey</span>. The complete words
+and music of this song will be sent by mail for 10 cents.
+Address, <span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North
+Moore Street, New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="A_PILLOW_FOR_THE_WANDERER">A PILLOW FOR THE WANDERER.</h2>
+</div>
+
+<p class="center">Words and music by J. P. Skelly.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There’s a pillow for the wand’rer who is roaming far away,</div>
+    <div class="verse indent0">A haven for his weariness, a balm for his dismay;</div>
+    <div class="verse indent0">A heart whereon to lay his head, to find a couch of rest,</div>
+    <div class="verse indent0">A mother waiting patiently, with welcome, pure and blest,</div>
+    <div class="verse indent0">Though he has slighted long her love, that love will e’er forgive,</div>
+    <div class="verse indent0">And still receive him in her arms as long as he shall live,<span class="pagenum" id="Page_11">[Pg 11]</span></div>
+    <div class="verse indent0">The mother-heart is keeping yet, with hope from day to day,</div>
+    <div class="verse indent0">A pillow for the wanderer, whose feet have gone astray.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0"><span class="smcap">Chorus.</span>—There’s a light forever shining,</div>
+    <div class="verse indent10">Within the window-pane,</div>
+    <div class="verse indent8">To guide the weary prodigal,</div>
+    <div class="verse indent10">To home and love again,</div>
+    <div class="verse indent8">A tender welcome waits him,</div>
+    <div class="verse indent10">When at the door he’ll stand,</div>
+    <div class="verse indent8">And a pillow for the wanderer,</div>
+    <div class="verse indent10">Smoothed by a mother’s hand!</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">There is sunshine for the wanderer whom wildest storms assail,</div>
+    <div class="verse indent0">A little nook of quietness where never sweeps the gale;</div>
+    <div class="verse indent0">The world with all its fading joys can offer no repose,</div>
+    <div class="verse indent0">Like that which now is waiting him, to bless him till life’s close,</div>
+    <div class="verse indent0">A loving one has sighed for him, and watched for his return,</div>
+    <div class="verse indent0">The light of hope within her breast has never ceased to burn.</div>
+    <div class="verse indent0">What though the outer world condemn? a gentle hand has spread</div>
+    <div class="verse indent0">A pillow for the wanderer to rest his weary head.—<span class="smcap">Chorus.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1891, by <span class="smcap">Frank Tousey</span>. The complete words
+and music of this song will be sent by mail for 10 cents.
+Address, <span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North
+Moore Street, New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="A_KISS_FROM_YOUR_OWN_DEAR_WIFE">A KISS FROM YOUR OWN DEAR WIFE.</h2>
+</div>
+
+<p class="center">Words and music by Gus Williams.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">In this world I’ve had my pleasures, both upon the land and sea,</div>
+    <div class="verse indent0">Always looking upon the bright side, I’m contented as can be.</div>
+    <div class="verse indent0">All the joys of life I’ve tasted, nothing e’er has gone amiss,</div>
+    <div class="verse indent0">And the acme of enjoyment, simply lies in a sweet kiss!<span class="pagenum" id="Page_12">[Pg 12]</span></div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">A sweet little kiss when a baby</div>
+    <div class="verse indent2">You got from your mother dear,</div>
+    <div class="verse indent0">A kiss from the girl you loved when a boy,</div>
+    <div class="verse indent2">With love that was quite sincere;</div>
+    <div class="verse indent0">A kiss from the one you called sweetheart,</div>
+    <div class="verse indent2">While journeying on through life,</div>
+    <div class="verse indent0">But the sweetest of all that I can recall</div>
+    <div class="verse indent2">Is the kiss from your own dear wife.</div>
+  </div>
+</div>
+</div>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There’s a kiss, the kiss of parting, an unwelcome sad embrace,</div>
+    <div class="verse indent0">Other kisses are all sweetness, as they happen in their place;</div>
+    <div class="verse indent0">What’s a kiss, what does it taste like, can you tell me, now I ask?</div>
+    <div class="verse indent0">Even Webster can’t define it, to describe it is a task!—<span class="smcap">Chorus.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1893, by <span class="smcap">Frank Tousey</span>. The complete words
+and music of this song will be sent by mail for 20 cents.
+Address, <span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North
+Moore Street, New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="HER_PAPA_WAS_THERE">HER PAPA WAS THERE!</h2>
+</div>
+
+<p class="center">
+By Felix McGlennon.       Arranged by Monroe H. Rosenfeld.
+</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">I went to see my best girl,</div>
+    <div class="verse indent0">One lovely evening, one lovely evening,</div>
+    <div class="verse indent0">My head was in a whirl</div>
+    <div class="verse indent0">As I approached her front door.</div>
+    <div class="verse indent0">At the window she was sitting there,</div>
+    <div class="verse indent0">And she looked so good, so pure and fair,</div>
+    <div class="verse indent0">And she smiled on me, I bowed, that’s all,</div>
+    <div class="verse indent0">But I must admit that I did not call.</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">For her papa was there, her papa was there,</div>
+    <div class="verse indent0">I saw his tin whiskers and bald head of hair,</div>
+    <div class="verse indent0">He’s a foot that can kick and a tongue that can swear,</div>
+    <div class="verse indent0">So I didn’t call, for her papa was there!</div>
+<p><span class="pagenum" id="Page_13">[Pg 13]</span></p>  </div>
+  <div class="stanza">
+    <div class="verse indent4">Her dad is awfully good,</div>
+    <div class="verse indent4">Never goes giddy, never goes giddy,</div>
+    <div class="verse indent4">Won’t look at anything rude,</div>
+    <div class="verse indent4">That’s what his family thinks.</div>
+    <div class="verse indent4">But a giddy show I went to see,</div>
+    <div class="verse indent4">Where the ladies’ skirts just reached the knee.</div>
+    <div class="verse indent4">Others danced in tights, some one said, “Bravo,”</div>
+    <div class="verse indent4">Who was it? why, right in the very front row</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">Her papa was there, her papa was there,</div>
+    <div class="verse indent0">I swore I would give him away I declare,</div>
+    <div class="verse indent0">But he promised he’d give me his daughter so rare,</div>
+    <div class="verse indent0">So I didn’t tell that her papa was there!</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent4">Her dad hates young men who spree,</div>
+    <div class="verse indent4">Says that he never takes a drink ever</div>
+    <div class="verse indent4">That is stronger than tea,</div>
+    <div class="verse indent4">Temperance leader is he.</div>
+    <div class="verse indent4">Now I went one day upon a lark,</div>
+    <div class="verse indent4">And I made things howl long after dark,</div>
+    <div class="verse indent4">And I staggered by, tripped up and fell,</div>
+    <div class="verse indent4">A policeman shoved me into a cell.</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">And her papa was there, her papa was there,</div>
+    <div class="verse indent0">And part of the floor with his nobs I did share;</div>
+    <div class="verse indent0">It was ten dollars fine and both fines he did square,</div>
+    <div class="verse indent0">Oh! wasn’t I glad that her papa was there!</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent4">I went once to the race track</div>
+    <div class="verse indent4">To see the racers go through their paces,</div>
+    <div class="verse indent4">With “touts” both white and black;</div>
+    <div class="verse indent4">Winners I never could lack,</div>
+    <div class="verse indent4">So I bet upon a stunning mare,</div>
+    <div class="verse indent4">For she couldn’t lose, all did declare,</div>
+    <div class="verse indent4">But she came in last, as I turned and saw</div>
+    <div class="verse indent4">A face I well knew and oh, dear! oh, law—</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">Her papa was there, her papa was there,</div>
+    <div class="verse indent0">He had on his face such a look of despair,</div>
+    <div class="verse indent0">He was cleaned out and “busted” I heard him declare,</div>
+    <div class="verse indent0">So I wasn’t alone, for her papa was there!</div>
+<p><span class="pagenum" id="Page_14">[Pg 14]</span></p>  </div>
+  <div class="stanza">
+    <div class="verse indent4">I went to see my best girl,</div>
+    <div class="verse indent4">One lovely morning, one lovely morning,</div>
+    <div class="verse indent4">Off to church we did whirl,</div>
+    <div class="verse indent4">Quickly we two were made one.</div>
+    <div class="verse indent4">Oh, the wedding breakfast was sublime,</div>
+    <div class="verse indent4">And we had a good old, gay old time,</div>
+    <div class="verse indent4">And we drank and toasted “luck and wealth,”</div>
+    <div class="verse indent4">Then some one got up and proposed our health—</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">And her papa was there, her papa was there,</div>
+    <div class="verse indent0">He said good, young fellows like me were so rare;</div>
+    <div class="verse indent0">He made them then think me a saint, I declare,</div>
+    <div class="verse indent0">Oh, wasn’t I glad that her papa was there!</div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1892, by <span class="smcap">Frank Tousey</span>. The complete words
+and music of this song will be sent by mail for 20 cents.
+Address, <span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North
+Moore Street, New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="ALWAYS_MIND_YOUR_SISTER_JENNIE">ALWAYS MIND YOUR SISTER, JENNIE.</h2>
+</div>
+
+<p class="center">Words and music by Chas. Graham.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">A plain little cottage, a cold winter’s day,</div>
+    <div class="verse indent0">A fond mother’s life slowly ebbing away,</div>
+    <div class="verse indent0">Two sisters in tears standing there by her bed,</div>
+    <div class="verse indent0">To hear the last words that their dearest friend said.</div>
+    <div class="verse indent0">One sister to womanhood lately had grown,</div>
+    <div class="verse indent0">The other to fifteen years scarcely could own.</div>
+    <div class="verse indent0">The poor mother knew that the youngest was wild,</div>
+    <div class="verse indent0">So her counsel she gave to her fair, youngest child;</div>
+    <div class="verse indent0">“There are things, little girl, that you can’t understand,</div>
+    <div class="verse indent0">There are lures and temptations, dear, on ev’ry hand,</div>
+    <div class="verse indent0">You will find, little Jennie, thro’ sorrow and woe,</div>
+    <div class="verse indent0">That your sister will comfort and love you, I know!”</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent4">“Always mind your sister, Jennie,</div>
+    <div class="verse indent4">She’s the dearest friend of any,</div>
+    <div class="verse indent0">You will need her, darling heed her, and you’ll never have a fear;</div>
+    <div class="verse indent4">She will be a mother to you,</div>
+    <div class="verse indent4">Let her life be happy through you,</div>
+    <div class="verse indent0">Just believe her, don’t deceive her, always mind your sister dear.”</div>
+<p><span class="pagenum" id="Page_15">[Pg 15]</span></p>  </div>
+  <div class="stanza">
+    <div class="verse indent0">A street in the city, a warm summer’s night,</div>
+    <div class="verse indent0">A tall, pretty lassie, a youth gay and bright,</div>
+    <div class="verse indent0">She, laughing and talking as slowly they passed,</div>
+    <div class="verse indent0">He, thinking, “My angel, I’ve got you at last!”</div>
+    <div class="verse indent0">“Suppose we have supper, my pretty,” he says,</div>
+    <div class="verse indent0">“I know where to take you, a nice quiet place,</div>
+    <div class="verse indent0">Of course you’ll say ‘yes,’ for it’s not very late,</div>
+    <div class="verse indent0">And then I will see you as far as the gate.”</div>
+    <div class="verse indent0">But before she could answer, a form that she knew,</div>
+    <div class="verse indent0">Came quickly towards her, ah! what should she do?</div>
+    <div class="verse indent0">Her sister was calling, “Come, Jennie, away,”</div>
+    <div class="verse indent0">And the dear voice of mother again seemed to say:—<span class="smcap">Chorus.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1892, by <span class="smcap">Frank Tousey</span>. Entered at
+Stationers’ Hall, London, England. The complete words and
+music of this song will be sent by mail for 20 cents. Address,
+<span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North Moore Street,
+New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="I_HANDED_IT_OVER_TO_RILEY">I HANDED IT OVER TO RILEY.</h2>
+</div>
+
+<p class="center">By Felix McGlennon.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There never were two stauncher pals</div>
+    <div class="verse indent2">Than I and my chum, Johnny Riley,</div>
+    <div class="verse indent0">We’d booze together or flirt with gals,</div>
+    <div class="verse indent2">And we valued each other highly;</div>
+    <div class="verse indent0">Whenever there was any booze to be got,</div>
+    <div class="verse indent2">Or somebody paid for the keg or pot,</div>
+    <div class="verse indent0">I would collar the measure and gulp the lot,</div>
+    <div class="verse indent2">Then I handed it over to Riley.</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">For Riley and I were chums and we always shared</div>
+    <div class="verse indent0">Black eyes or sugar plums, the divil a hair we cared,</div>
+    <div class="verse indent0">When there was anything nice about, take my word,</div>
+    <div class="verse indent0">That when I had done I handed it on to Riley!</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent2">One day while I was on a spree</div>
+    <div class="verse indent4">Along with my chum, Johnny Riley,</div>
+    <div class="verse indent2">One of those men they call a “D”</div>
+    <div class="verse indent4">Came in and surveyed us slyly,</div>
+    <div class="verse indent2">Then he grabbed me gently by the ear,</div>
+    <div class="verse indent4">And whispered “Young man, I’ve a warrant here!”</div>
+    <div class="verse indent2">Well, I took that warrant with the greatest fear,</div>
+    <div class="verse indent4">Then I handed it over to Riley.—<span class="smcap">Chorus.</span></div>
+<p><span class="pagenum" id="Page_16">[Pg 16]</span></p>  </div>
+  <div class="stanza">
+    <div class="verse indent0">One night I found a watch and chain,</div>
+    <div class="verse indent2">While out with my chum, Johnny Riley,</div>
+    <div class="verse indent0">And he for his share did soon complain</div>
+    <div class="verse indent2">And he did it so awfully wily,</div>
+    <div class="verse indent0">But as by a lamp we chanced to pass,</div>
+    <div class="verse indent0">I saw by the light of the flaring gas</div>
+    <div class="verse indent0">That the watch was gold but the chain was brass,</div>
+    <div class="verse indent2">So the chain went over to Riley.—<span class="smcap">Chorus.</span></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">One sweet spring morn I took a wife,</div>
+    <div class="verse indent2">My best man of course was Riley,</div>
+    <div class="verse indent0">I thought she’d be the joy of my life,</div>
+    <div class="verse indent2">For she acted so very shyly;</div>
+    <div class="verse indent0">But I soon found that marriage was no great fun,</div>
+    <div class="verse indent0">For she chased me round the house with a gun,</div>
+    <div class="verse indent0">Till I said, “Dear madam, with you I’ve done!”</div>
+    <div class="verse indent2">And I handed her over to Riley.—<span class="smcap">Chorus.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1892, by <span class="smcap">Frank Tousey</span>. The complete words
+and music of this song will be sent by mail for 20 cents.
+Address, <span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North
+Moore Street, New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="A_MOTHER_IS_THE_TRUEST_FRIEND_OF_ALL">A MOTHER IS THE TRUEST FRIEND OF ALL.</h2>
+</div>
+
+<p class="center">
+Words by Eunice Monroe.        Music by Robert Stanton.
+</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">We meet with many friendships as we journey o’er life’s way,</div>
+    <div class="verse indent2">And sunny smiles around us oft are cast;</div>
+    <div class="verse indent0">But one is ever faithful, changing ne’er from day to day,</div>
+    <div class="verse indent2">Who always stands beside us till the last,</div>
+    <div class="verse indent0">In poverty or woe, her heart is ever true.</div>
+    <div class="verse indent2">And tho’ the darkest shadows o’er us fall,</div>
+    <div class="verse indent0">She’ll be your truest friend, forever to the end,</div>
+    <div class="verse indent2">A mother is the truest friend of all.</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent8">While journeying on thro’ life,</div>
+    <div class="verse indent8">In sorrow or in strife,</div>
+    <div class="verse indent6">No matter what temptations may befall,</div>
+    <div class="verse indent8">You’ll always find a friend,</div>
+    <div class="verse indent8">Who’s faithful to the end,</div>
+    <div class="verse indent6">A mother is the truest friend of all.</div>
+<p><span class="pagenum" id="Page_17">[Pg 17]</span></p>  </div>
+  <div class="stanza">
+    <div class="verse indent0">You have a loving sister, who will think of you thro’ life,</div>
+    <div class="verse indent2">A brother who will never turn aside;</div>
+    <div class="verse indent0">You’ll know the fond affection of a dear devoted wife,</div>
+    <div class="verse indent2">Whose smile will cheer you on your journey wide;</div>
+    <div class="verse indent0">Perhaps they will be true, when trouble lingers near,</div>
+    <div class="verse indent2">Yet one is sure to answer to your call,</div>
+    <div class="verse indent0">No matter where you roam, her heart is still your home,</div>
+    <div class="verse indent2">A mother is the truest friend of all.—<span class="smcap">Chorus.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1894, by <span class="smcap">Frank Tousey</span>, New York, and
+entered at Stationers’ Hall, London, England. The complete
+words and music of this song will be sent by mail for 20 cents.
+Address, <span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North
+Moore St., New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="OH_MR_HITCHIN">OH! MR. HITCHIN!</h2>
+</div>
+
+<p class="center">Written by W. H. Archbold and Monroe H. Rosenfeld. Composed by Felix
+McGlennon.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Now Mr. Hitchin, gentleman, loved buxom widow Brown,</div>
+    <div class="verse indent0">And Mrs. Brown a daughter had, a girl of great renown.</div>
+    <div class="verse indent0">When Mr. Hitchin called one day and found the widow out,</div>
+    <div class="verse indent0">He seemed so disappointed that the girl cried with a pout:</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent4">“Oh! Mr. Hitchin! Oh! Mr. Hitchin!</div>
+    <div class="verse indent4">Won’t you stay awhile within our cosy little kitchen;</div>
+    <div class="verse indent4">Mother dear is out, sir, so is brother Jack,</div>
+    <div class="verse indent4">But I can entertain you till mamma comes back!”</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Now Mr. Hitchin thought the girl the fairest he had seen,</div>
+    <div class="verse indent0">And said: “My dear, how old are you?” She answered, “Seventeen.”</div>
+    <div class="verse indent0">And as she with her own fair hands made him a cup of tea,</div>
+    <div class="verse indent0">He tried to steal a kiss, and then the maiden cried with glee:—<span class="smcap">Chorus.</span></div>
+<p><span class="pagenum" id="Page_18">[Pg 18]</span></p>  </div>
+  <div class="stanza">
+    <div class="verse indent0">As Mr. Hitchin drank the tea, he bold and bolder grew,</div>
+    <div class="verse indent0">He squeezed the maiden’s hand and said: “Oh, ducky, I love you!”</div>
+    <div class="verse indent0">And then he put his arm around—well, where it shouldn’t be,</div>
+    <div class="verse indent0">While Katie cried: “Oh! Mr. Hitchin, stop! you’re tickling me!”—<span class="smcap">Chorus.</span></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Just then old Missis Brown appeared, and, mad with jealousy,</div>
+    <div class="verse indent0">Cried, “Oh, you wretch! that’s more than ever you would do for me!”</div>
+    <div class="verse indent0">She grabbed his whiskers, punched his ribs, and screamed, “Here’s where you die!”</div>
+    <div class="verse indent0">And as he jumped the window, he could hear sweet Katie cry:—<span class="smcap">Chorus.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1895, by <span class="smcap">Frank Tousey</span>. Entered at
+Stationers’ Hall, London, England. The complete words and
+music of this song will be sent by mail for 20 cents. Address
+<span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North Moore Street,
+New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="KISS_MY_DEAR_OLD_MOTHER_JACK">KISS MY DEAR OLD MOTHER, JACK.</h2>
+</div>
+
+<p class="center">By George Bruce and Felix McGlennon.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Far away from dear Columbia,</div>
+    <div class="verse indent2">In a land across the foam,</div>
+    <div class="verse indent0">Lies a mother’s darling dying,</div>
+    <div class="verse indent2">Far from kindred, friends and home;</div>
+    <div class="verse indent0">And his comrade kneels beside him,</div>
+    <div class="verse indent2">With the tear-drops in his eye,</div>
+    <div class="verse indent0">Listening to the poor lad’s message</div>
+    <div class="verse indent2">As he says the last good-bye.</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">Kiss my dear old mother, Jack,</div>
+    <div class="verse indent2">And say it came from me,</div>
+    <div class="verse indent0">The boy who ran away from home,</div>
+    <div class="verse indent2">And went across the sea;</div>
+    <div class="verse indent0">Ask her to forgive me, Jack,</div>
+    <div class="verse indent2">Her wild and erring lad,</div>
+    <div class="verse indent0">And say that I died with a prayer on my lips,</div>
+    <div class="verse indent2">For her and dad.</div>
+<p><span class="pagenum" id="Page_19">[Pg 19]</span></p>  </div>
+  <div class="stanza">
+    <div class="verse indent0">Ah! the day I well remember,</div>
+    <div class="verse indent2">That I ran away to sea,</div>
+    <div class="verse indent0">Dad and I had hotly quarrelled,</div>
+    <div class="verse indent2">And in passion he struck me,</div>
+    <div class="verse indent0">I struck him back, oh! Heaven, forgive me!</div>
+    <div class="verse indent2">To the docks I made my way,</div>
+    <div class="verse indent0">Stowed myself on board a vessel</div>
+    <div class="verse indent2">That was due to sail that day.—<span class="smcap">Chorus.</span></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Bear the message to my mother,</div>
+    <div class="verse indent2">How I died a life to save,</div>
+    <div class="verse indent0">How I snatched a helpless infant</div>
+    <div class="verse indent2">From a cruel fiery grave;</div>
+    <div class="verse indent0">An humble cottage fiercely burning,</div>
+    <div class="verse indent2">A frantic mother shrieking wild,</div>
+    <div class="verse indent0">’Mongst the flames I dashed like lightning,</div>
+    <div class="verse indent2">Gave my life but saved the child.—<span class="smcap">Chorus.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1892, by <span class="smcap">Frank Tousey</span>. The complete words
+and music of this song will be sent by mail for 20 cents.
+Address, <span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North
+Moore Street, New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="A_MOTHERS_WELCOME">A MOTHER’S WELCOME.</h2>
+</div>
+
+<p class="center">Written and composed by Felix McGlennon.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">A wayward boy got tired of home,</div>
+    <div class="verse indent2">And said, “I’ll go to sea,</div>
+    <div class="verse indent0">I’ll travel all the wide world o’er,</div>
+    <div class="verse indent2">From home restraints be free.”</div>
+    <div class="verse indent0">His mother said, “Don’t leave me, Jack,</div>
+    <div class="verse indent2">You are my only joy.”</div>
+    <div class="verse indent0">But all in vain, he’d have his way,</div>
+    <div class="verse indent2">So she said to the boy:</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">“Good-bye, darling, good-bye, dear,</div>
+    <div class="verse indent0">Don’t forget the loving heart that’s waiting for you here,</div>
+    <div class="verse indent0">When you’re sad and weary and no more you wish to roam,</div>
+    <div class="verse indent0">Your mother still will welcome you, at ‘Home, sweet home!’”</div>
+<p><span class="pagenum" id="Page_20">[Pg 20]</span></p>  </div>
+  <div class="stanza">
+    <div class="verse indent0">The foolish boy went off to sea,</div>
+    <div class="verse indent2">Despite his mother’s tears,</div>
+    <div class="verse indent0">No letter reached her from the lad</div>
+    <div class="verse indent2">For many weary years.</div>
+    <div class="verse indent0">He led a wild and reckless life,</div>
+    <div class="verse indent2">But sometimes in his sleep</div>
+    <div class="verse indent0">His mother’s sweet face he would see,</div>
+    <div class="verse indent2">And she would sadly weep.—<span class="smcap">Chorus.</span></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">The poor old mother waited,</div>
+    <div class="verse indent2">And she’d sadly smile and say:</div>
+    <div class="verse indent0">“My boy will tire of rambling</div>
+    <div class="verse indent2">And come back to me some day.</div>
+    <div class="verse indent0">The world to him may cruel be,</div>
+    <div class="verse indent2">The soiled and weary dove</div>
+    <div class="verse indent0">Will fly back to the parent nest</div>
+    <div class="verse indent2">To find a mother’s love.”—<span class="smcap">Chorus.</span></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">At last he tired of rambling,</div>
+    <div class="verse indent2">And he longed for peace and rest,</div>
+    <div class="verse indent0">And for his mother’s love he yearned,</div>
+    <div class="verse indent2">His dearest friend and best.</div>
+    <div class="verse indent0">But like a flower neglected,</div>
+    <div class="verse indent2">She had pined away and died.</div>
+    <div class="verse indent0">On earth his only comfort is,</div>
+    <div class="verse indent2">The last words that she cried:—<span class="smcap">Chorus.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1892, by <span class="smcap">Frank Tousey</span>. The complete words
+and music of this song will be sent by mail for 10 cents.
+Address, <span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North
+Moore Street, New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="THE_LAND_OF_DREAMS">THE LAND OF DREAMS.</h2>
+</div>
+
+<p class="center">Written and composed by Felix McGlennon.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">A soldier brave bade his wife “good-by,”</div>
+    <div class="verse indent2">To battle he had to go,</div>
+    <div class="verse indent0">Bravely he fought, bravely he fell,</div>
+    <div class="verse indent2">Fell with his face to the foe.</div>
+    <div class="verse indent0">Sadly she mourns for her darling one,</div>
+    <div class="verse indent2">As the shadows around her creep,</div>
+    <div class="verse indent0">Thinking of him she will ne’er see again,</div>
+    <div class="verse indent2">She’s sinking in slumber deep.</div>
+<p><span class="pagenum" id="Page_21">[Pg 21]</span></p>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Refrain.</span></p>
+    <div class="verse indent4">But light shines out of the darkness,</div>
+    <div class="verse indent6">A loving face is there,</div>
+    <div class="verse indent4">She hears a voice that whispers,</div>
+    <div class="verse indent6">Banishing gloomy care;</div>
+    <div class="verse indent4">And loving lips are pressed to hers</div>
+    <div class="verse indent6">’Till earth like Paradise seems,</div>
+    <div class="verse indent4">She sees her husband once again</div>
+    <div class="verse indent6">In the land of dreams.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">A wayward boy by the camp-fire sits,</div>
+    <div class="verse indent2">A letter he reads from home,</div>
+    <div class="verse indent0">“Come back asthore, mother’s no more,</div>
+    <div class="verse indent2">Come back and no longer roam;</div>
+    <div class="verse indent0">Ah! how she drooped when you left here, dear,</div>
+    <div class="verse indent2">Ay, she drooped ’till her poor heart broke,</div>
+    <div class="verse indent0">Watching and waiting for you to return,</div>
+    <div class="verse indent2">Your name was the last she spoke.”</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Refrain.</span></p>
+    <div class="verse indent4">He sinks in tears by the camp-fire,</div>
+    <div class="verse indent6">And breathes to Heaven a prayer,</div>
+    <div class="verse indent4">He thinks of her heart-broken,</div>
+    <div class="verse indent6">He thinks of her silvery hair;</div>
+    <div class="verse indent4">He hears a voice, “I forgive you, dear,”</div>
+    <div class="verse indent6">Then earth like Paradise seems,</div>
+    <div class="verse indent4">He sees his mother once again</div>
+    <div class="verse indent6">In the land of dreams.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">A mother sits by an empty cot,</div>
+    <div class="verse indent2">And weeps in the twilight grey,</div>
+    <div class="verse indent0">Sad is her heart, dim are her eyes,</div>
+    <div class="verse indent2">Baby has passed away;</div>
+    <div class="verse indent0">“God’s will be done,” ah! the solemn words,</div>
+    <div class="verse indent2">To her poor wounded heart brings joy,</div>
+    <div class="verse indent0">Dreaming is she of the world ’yond the stars,</div>
+    <div class="verse indent2">When she’ll meet her baby boy.</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Refrain.</span></p>
+    <div class="verse indent4">And two soft arms creep around her,</div>
+    <div class="verse indent6">An angel face is there,</div>
+    <div class="verse indent4">The light of Heaven is shining,</div>
+    <div class="verse indent6">On a halo of golden hair;</div>
+    <div class="verse indent4">And angel lips are pressed to hers,</div>
+    <div class="verse indent6">’Till earth like Paradise seems,<span class="pagenum" id="Page_22">[Pg 22]</span></div>
+    <div class="verse indent4">She sees her baby once again</div>
+    <div class="verse indent6">In the land of dreams.</div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1893, by <span class="smcap">Frank Tousey</span>. Entered at
+Stationers’ Hall, London, England. The complete words and
+music of this song will be sent by mail for 20 cents. Address,
+<span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North Moore Street,
+New York, Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="THE_SAME_SWEET_BELLS_ARE_RINGING">THE SAME SWEET BELLS ARE RINGING.</h2>
+</div>
+
+<p class="center">Words and Music by Arthur Sinclair.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There’s a picture in my mem’ry of a happy country home,</div>
+    <div class="verse indent2">Where a mother and her children dwelt for years;</div>
+    <div class="verse indent0">There’s a picture in my mem’ry of a father, stern and old,</div>
+    <div class="verse indent2">And a daughter who once fled that home in tears!</div>
+    <div class="verse indent0">On a Sabbath morning early, as the church bells sweetly rang,</div>
+    <div class="verse indent0">From the nest of joy and comfort where the happy birdlings sang,</div>
+    <div class="verse indent0">I can see the scene before me as a mother begged and prayed,</div>
+    <div class="verse indent0">And the picture of the daughter who had strayed.</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent8">The same sweet bells are ringing,</div>
+    <div class="verse indent8">The same sweet birds are singing,</div>
+    <div class="verse indent8">The same sweet vines are clinging,</div>
+    <div class="verse indent14">To the home of her youth in the lane!</div>
+    <div class="verse indent8">The same sweet lips are sighing,</div>
+    <div class="verse indent8">The same sweet eyes are crying,</div>
+    <div class="verse indent8">The same sad heart is dying,</div>
+    <div class="verse indent14">But she’ll never return again!</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">She was guiltless as an angel, so the story goes, they say,</div>
+    <div class="verse indent2">But the passion of a father little heeds;</div>
+    <div class="verse indent0">So, with bitter hate and anger in a frenzied mood, one day,</div>
+    <div class="verse indent2">He drove her forth to taste life’s bitter weeds!</div>
+    <div class="verse indent0">’Twas in vain the mother pleaded, for the one whom she loved best,</div>
+    <div class="verse indent0">And in vain her voice came ringing, “Oh, come daughter, on me rest!”<span class="pagenum" id="Page_23">[Pg 23]</span></div>
+    <div class="verse indent0">Then the door was softly opened and just like a caged bird,</div>
+    <div class="verse indent0">The child she loved had gone without one word.—<span class="smcap">Chorus.</span></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">But hark! to the bitter wailing of the storm—’tis a dreadful night;</div>
+    <div class="verse indent0">As over the deck of the ferry there darts a flash of light!</div>
+    <div class="verse indent0">And lo! ’midst the raging torrent that falls from the starless dome,</div>
+    <div class="verse indent0">A form leaps out in anguish and sinks in the troubled foam!</div>
+    <div class="verse indent0">All the past is now forgotten, and when dawn shines o’er the deep,</div>
+    <div class="verse indent0">There’s a soul at rest forever, there’s a broken heart asleep.—<span class="smcap">Chorus.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1893, by <span class="smcap">Frank Tousey</span>. The complete words
+and music of this song will be sent by mail for 25 cents.
+Address, <span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North
+Moore Street, New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="HE_NEVER_CARES_TO_WANDER_FROM_HIS_OWN_FIRESIDE">HE NEVER CARES TO WANDER FROM HIS OWN FIRESIDE.</h2>
+</div>
+
+<p class="center">
+By Felix McGlennon.        Arranged by Monroe H. Rosenfeld.
+</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Various men have various natures,</div>
+    <div class="verse indent2">Some prefer to cross the wave,</div>
+    <div class="verse indent0">O’er the world they like to travel,</div>
+    <div class="verse indent2">For fresh scenes they seem to crave,</div>
+    <div class="verse indent0">To their birth-place some cling fondly,</div>
+    <div class="verse indent2">And their hearts are in one spot,</div>
+    <div class="verse indent0">See the man whose home is Eden,</div>
+    <div class="verse indent2">Happy in his humble cot!</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">He never cares to wander from his own fireside!</div>
+    <div class="verse indent2">He never cares to ramble or to roam;</div>
+    <div class="verse indent0">With his children on his knee he’s as happy as can be,</div>
+    <div class="verse indent2">For there’s no place like home, sweet home!</div>
+<p><span class="pagenum" id="Page_24">[Pg 24]</span></p>  </div>
+  <div class="stanza">
+    <div class="verse indent0">How his face with joy is beaming,</div>
+    <div class="verse indent2">When the worldly toil is o’er,</div>
+    <div class="verse indent0">As with eager step he hastens</div>
+    <div class="verse indent2">To his humble cottage door.</div>
+    <div class="verse indent0">Little children run to meet him,</div>
+    <div class="verse indent2">Pleading for a fond caress,</div>
+    <div class="verse indent0">There amongst his well-beloved ones</div>
+    <div class="verse indent2">He can find true happiness!—<span class="smcap">Chorus.</span></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">There’s a wife to fondly greet him,</div>
+    <div class="verse indent2">With the lovelight in her eyes,</div>
+    <div class="verse indent0">There’re the children ’round their daddy,</div>
+    <div class="verse indent2">Home to him is Paradise!</div>
+    <div class="verse indent0">Baby’s arms are round him clinging,</div>
+    <div class="verse indent2">Baby’s lips to his are pressed,</div>
+    <div class="verse indent0">All is peace and love and comfort,</div>
+    <div class="verse indent2">In his home he finds sweet rest!—<span class="smcap">Chorus.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1892, by <span class="smcap">Frank Tousey</span>. The complete words
+and music of this song will be sent by mail for 20 cents.
+Address, <span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North
+Moore Street, New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="THEY_ARE_THE_BEST_FRIENDS_OF_ALL">THEY ARE THE BEST FRIENDS OF ALL.</h2>
+</div>
+
+<p class="center">
+Written by Theo. Norman.        Composed by Felix McGlennon.
+</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Oh, the fairest spot on earth is to man of little worth,</div>
+    <div class="verse indent2">Unless he finds some fellow-creature there;</div>
+    <div class="verse indent0">But a true and loving friend to the poorest will lend</div>
+    <div class="verse indent2">An ever cheerful, bright and sunny air.</div>
+    <div class="verse indent0">When the sun sinks in the west, and the toiler seeks his rest,</div>
+    <div class="verse indent2">The thought of home his weariness will cheer,</div>
+    <div class="verse indent0">For he knows ’tis there he’ll find honest friends both true and kind,</div>
+    <div class="verse indent2">His ever faithful wife and children dear.</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent10">They are the best friends of all,</div>
+    <div class="verse indent10">No matter whate’er may befall,</div>
+    <div class="verse indent10">The comfort of his life,</div>
+    <div class="verse indent10">His children and his wife—</div>
+    <div class="verse indent12">They are the best friends of all.</div>
+<p><span class="pagenum" id="Page_25">[Pg 25]</span></p>  </div>
+  <div class="stanza">
+    <div class="verse indent0">Now it makes his bosom glad, when the children run to dad,</div>
+    <div class="verse indent2">For then he has a romp with girls and boys;</div>
+    <div class="verse indent0">While his tender, watchful mate, smiling, greets him at the gate,</div>
+    <div class="verse indent2">Prepared to share his sorrows and his joys;</div>
+    <div class="verse indent0">And in illness or in health, and in poverty or wealth,</div>
+    <div class="verse indent2">When climbing up the hill or going down,</div>
+    <div class="verse indent0">There’s a kindly, loving smile, to greet him all the while,</div>
+    <div class="verse indent2">And even brighten fortune’s cruel frown.—<span class="smcap">Chorus.</span></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Then when he is growing gray, as he journeys on his way,</div>
+    <div class="verse indent2">And Time has slightly bent his stalwart form;</div>
+    <div class="verse indent0">Tho’ his spirit may be bold, still with hearts of purest gold,</div>
+    <div class="verse indent2">They hasten to protect him from life’s storm—</div>
+    <div class="verse indent0">His old wife, with face so bright, is to him a ray of light,</div>
+    <div class="verse indent2">That with the children fills his home with love;</div>
+    <div class="verse indent0">’Tis their pleasure and their pride, to be ever at his side,</div>
+    <div class="verse indent2">Until he’s called to higher realms above.—<span class="smcap">Chorus.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1893, by <span class="smcap">Frank Tousey</span>. The complete words
+and music of this song will be sent by mail for 20 cents.
+Address, <span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North
+Moore Street, New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="ONLY_A_LITTLE_YALLER_DOG">ONLY A LITTLE YALLER DOG.</h2>
+</div>
+
+<p class="center">By Felix McGlennon.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">I will tell you a tale of a little yaller dog,</div>
+    <div class="verse indent2">And he only was so high;</div>
+    <div class="verse indent0">As ugly a dog as you ever did see,</div>
+    <div class="verse indent2">And he only had one eye.</div>
+    <div class="verse indent0">His legs were bandy and his ears were cropped,</div>
+    <div class="verse indent2">His tail had a curl at the end,</div>
+    <div class="verse indent0">But I’ll tell you straight, that little yaller dog</div>
+    <div class="verse indent2">Was a true and faithful friend.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0"><span class="smcap">Chorus.</span>—He was only a little yaller, yaller dog,</div>
+    <div class="verse indent11">The ugliest in all the land,</div>
+    <div class="verse indent9">But I’d sooner have a wag from that little dog’s tail,</div>
+    <div class="verse indent11">Than the grip of a false friend’s hand.</div>
+<p><span class="pagenum" id="Page_26">[Pg 26]</span></p>  </div>
+  <div class="stanza">
+    <div class="verse indent0">To the diggings I went with my little yaller dog,</div>
+    <div class="verse indent2">For he would not be denied,</div>
+    <div class="verse indent0">By day he would hang ’round the claim where I worked,</div>
+    <div class="verse indent2">And at night slept by my side.</div>
+    <div class="verse indent0">When luck was out, and when the food was scarce,</div>
+    <div class="verse indent2">My courage would nearly fail,</div>
+    <div class="verse indent0">But he’d comfort me with his joyous little bark</div>
+    <div class="verse indent2">And a wag of his little tail.—<span class="smcap">Chorus.</span></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">After years of toil, I a mighty nugget found,</div>
+    <div class="verse indent2">And I buried it where I slept,</div>
+    <div class="verse indent0">But one stormy night, as I slumbered so deep,</div>
+    <div class="verse indent2">’Neath my tent a dim form crept—</div>
+    <div class="verse indent0">’Twas my false friend Jim, and he on murder was bent,</div>
+    <div class="verse indent2">His hand held a gleaming knife,</div>
+    <div class="verse indent0">I awoke with a start, to see that yellow dog</div>
+    <div class="verse indent2">Grip his throat, and save my life.—<span class="smcap">Chorus.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1893, by <span class="smcap">Frank Tousey</span>. The complete words
+and music of this song will be sent by mail for 20 cents.
+Address, <span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North
+Moore Street, New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="THE_SHIP_I_LOVE">THE SHIP I LOVE.</h2>
+</div>
+
+<p class="center">By Felix McGlennon.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent10">A gallant ship was lab’ring,</div>
+    <div class="verse indent12">Lab’ring in the sea;</div>
+    <div class="verse indent10">The captain stood amongst his crew,</div>
+    <div class="verse indent12">“Gather ’round!” said he.</div>
+    <div class="verse indent10">“The ship is doomed and sinking,</div>
+    <div class="verse indent12">There on the lee is land,</div>
+    <div class="verse indent10">Then launch the boats and pull away,</div>
+    <div class="verse indent12">But here at my post I’ll stand.</div>
+    <div class="verse indent22">Good-bye, my lads, good-bye!</div>
+    <div class="verse indent22">Good-bye, my lads, good-bye!”</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">I’ll stick to the ship, lads, you save your lives,</div>
+    <div class="verse indent0">I’ve no one to love me, you’ve children and wives;</div>
+    <div class="verse indent0">You take to the boats, lads, praying to heaven above,</div>
+    <div class="verse indent0">While I’ll go down in the angry deep with the ship I love.</div>
+<p><span class="pagenum" id="Page_27">[Pg 27]</span></p>  </div>
+  <div class="stanza">
+    <div class="verse indent10">The crew stood hesitating,</div>
+    <div class="verse indent12">Their hearts were staunch and true;</div>
+    <div class="verse indent10">With tear-dimmed eyes spoke up the mate,</div>
+    <div class="verse indent12">“Sir, we will die with you!”</div>
+    <div class="verse indent10">The captain cried, “What! Mutiny!</div>
+    <div class="verse indent12">I am the captain here!</div>
+    <div class="verse indent10">So launch the boats and pull away,</div>
+    <div class="verse indent10">And think of your children dear.</div>
+    <div class="verse indent22">Good-bye, my lads, good-bye!</div>
+    <div class="verse indent22">Good-bye, my lads, good-bye!”—<span class="smcap">Chorus.</span></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">The fierce winds howl ’round the sinking wreck,</div>
+    <div class="verse indent0">And the captain stands on the wave-washed deck;</div>
+    <div class="verse indent2">The good ship struggles like a thing of life,</div>
+    <div class="verse indent2">And the timbers groan in the awful strife;</div>
+    <div class="verse indent0">Slowly, slowly, sinking is she,</div>
+    <div class="verse indent0">But the captain, brave—ah, where is he?</div>
+    <div class="verse indent2">Down he goes to a sailor’s grave,</div>
+    <div class="verse indent2">As his last words are wafted across the wave:</div>
+    <div class="verse indent22">“Good-bye, my lads, good-bye!</div>
+    <div class="verse indent23">Good-bye, my lads, good-bye!”—<span class="smcap">Chorus.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1893, by <span class="smcap">Frank Tousey</span>. Entered at
+Stationers’ Hall, London, England. The complete words and
+music of this song will be sent by mail for 25 cents. Address,
+<span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North Moore Street,
+New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="THE_OLD_OLD_FRIENDS_IN_THE_OLD_OLD_HOME">THE OLD, OLD FRIENDS, IN THE OLD, OLD HOME.</h2>
+</div>
+
+<p class="center">Composed by Felix McGlennon.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">In my wand’ring dreams, oft to me it seems,</div>
+    <div class="verse indent2">I can see the dear old home of youth;</div>
+    <div class="verse indent0">Fields and pleasant glade, where so oft I’ve played,</div>
+    <div class="verse indent2">Home of beauty, virtue, love and truth.</div>
+    <div class="verse indent0">Many years have passed since I saw it last,</div>
+    <div class="verse indent2">Since I went in foreign lands to roam;</div>
+    <div class="verse indent0">And where’er I be, still I love to see</div>
+    <div class="verse indent2">Faces of my dear old friends at home.</div>
+<p><span class="pagenum" id="Page_28">[Pg 28]</span></p>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent2">Oh! the old, old friends, in the old, old home,</div>
+    <div class="verse indent4">Are they thinking of the wand’rer o’er the foam?</div>
+    <div class="verse indent2">There’s a vacant chair, and I’ll soon be there,</div>
+    <div class="verse indent4">In the old, old home!</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">O’er the distant years, thro’ a mist of tears,</div>
+    <div class="verse indent2">I recall my mother fond and true;</div>
+    <div class="verse indent0">“Good-bye, darling Jack, you will soon come back,”</div>
+    <div class="verse indent2">Thus with broken voice she bade adieu.</div>
+    <div class="verse indent0">Ah! the sad good-byes, tears were in all eyes,</div>
+    <div class="verse indent2">As once more I gripped each friendly hand;</div>
+    <div class="verse indent0">Do they think of me, far across the sea,</div>
+    <div class="verse indent2">Striving, toiling in a foreign land?—<span class="smcap">Chorus.</span></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Once again I see faces dear to me,</div>
+    <div class="verse indent2">Longing for the wanderer’s return;</div>
+    <div class="verse indent0">O’er the boundless tide, by the old fireside</div>
+    <div class="verse indent2">Once again to be my heart doth yearn,</div>
+    <div class="verse indent0">Back to home and friends, there my journey ends,</div>
+    <div class="verse indent2">Soon again I’ll see my native shore;</div>
+    <div class="verse indent0">Loving hearts will greet when at length we meet,</div>
+    <div class="verse indent2">Meet to part on earth, ah! never more.—<span class="smcap">Chorus.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1892, by <span class="smcap">Frank Tousey</span>. The complete words
+and music of this song will be sent by mail for 20 cents.
+Address, <span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North
+Moore Street, New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="DOWN_AT_THE_FARM-YARD_GATE">DOWN AT THE FARM-YARD GATE.</h2>
+</div>
+
+<p class="center">By Felix McGlennon.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Johnny Green once used to wait for his girl,</div>
+    <div class="verse indent22">Down at the farm-yard gate!</div>
+    <div class="verse indent0">With his whiskers trimm’d and a nice little curl,</div>
+    <div class="verse indent22">Down at the farm-yard gate!</div>
+    <div class="verse indent0">He would sit on the gate and he’d cry “Chuckoo!</div>
+    <div class="verse indent0">’Aint you coming out, darling? do love, do,</div>
+    <div class="verse indent0">For my toes is cold and my nose is blue,”</div>
+    <div class="verse indent22">Down at the farm-yard gate!</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">Oh, that farm-yard gate!</div>
+    <div class="verse indent0">Johnny was there, early and late,</div>
+    <div class="verse indent0">Whistling and singing, Are you coming out, Kate?</div>
+    <div class="verse indent22">Down at the farm-yard gate!</div>
+<p><span class="pagenum" id="Page_29">[Pg 29]</span></p>  </div>
+  <div class="stanza">
+    <div class="verse indent0">She would come out and they both would sing,</div>
+    <div class="verse indent22">Down at the farm-yard gate!</div>
+    <div class="verse indent0">And he then would talk like a silly thing,</div>
+    <div class="verse indent22">Down at the farm-yard gate!</div>
+    <div class="verse indent0">They would sit there for hours and they’d whisper low,</div>
+    <div class="verse indent0">Then her dad would come out and he’d laugh, Ho! ho!</div>
+    <div class="verse indent0">Then Johnny had to sit on the old man’s toe,</div>
+    <div class="verse indent22">Down at the farm-yard gate!—<span class="smcap">Chorus.</span></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Now Kate’s little brother once took some tar</div>
+    <div class="verse indent22">Down to the farm-yard gate!</div>
+    <div class="verse indent0">And he spread it all over the topmost bar,</div>
+    <div class="verse indent22">Down at the farm-yard gate!</div>
+    <div class="verse indent0">Now Johnny sat there, and he said “My duck,”</div>
+    <div class="verse indent0">And Kate sat there and she said “Chuck-chuck,”</div>
+    <div class="verse indent0">And they had to sit there for they both had stuck</div>
+    <div class="verse indent22">Down at the farm-yard gate!—<span class="smcap">Chorus.</span></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Those lovers ne’er speak now as they pass by,</div>
+    <div class="verse indent22">Down to the farm-yard gate!</div>
+    <div class="verse indent0">If you go there you’ll find out the reason why,</div>
+    <div class="verse indent22">Down at the farm-yard gate!</div>
+    <div class="verse indent0">You’ll see a bustle if you’re not blind,</div>
+    <div class="verse indent0">A portion of pants you will also find,</div>
+    <div class="verse indent0">It’s the part that he used to wear behind,</div>
+    <div class="verse indent22">Down at the farm-yard gate!—<span class="smcap">Chorus.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1893, by <span class="smcap">Frank Tousey</span>. The complete words
+and music of this song will be sent by mail for 25 cents.
+Address, <span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North
+Moore Street, New York. Catalogues sent free upon application.</p>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<h2 class="nobreak" id="SHE_LEFT_THE_MAN_WHO_LOVED_HER_FOR_ANOTHER">SHE LEFT THE MAN WHO LOVED HER FOR ANOTHER.</h2>
+</div>
+
+<p class="center">Words and music by George Bruce and Felix McGlennon.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent4">In a little country village</div>
+    <div class="verse indent6">Lived a farmer and his wife,</div>
+    <div class="verse indent4">She was young and rich with beauty,</div>
+    <div class="verse indent6">Sunshine of her husband’s life;</div>
+    <div class="verse indent4">But the snake crept in his Eden,</div>
+    <div class="verse indent6">In the guise of trusted friend,</div>
+<p><span class="pagenum" id="Page_30">[Pg 30]</span></p>  </div>
+  <div class="stanza">
+    <div class="verse indent4">And the dreams fond love had cherished,</div>
+    <div class="verse indent6">Came they to a fatal end;</div>
+    <div class="verse indent4">One night when he reached his homestead,</div>
+    <div class="verse indent6">His fond heart was turned to stone,</div>
+    <div class="verse indent4">She, the wife he loved so dearly,</div>
+    <div class="verse indent6">With his dearest friend had flown!</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">She left the man who loved her for another,</div>
+    <div class="verse indent2">She was the sunshine of his life;</div>
+    <div class="verse indent0">Her vows of faith and duty she’d forgotten,</div>
+    <div class="verse indent2">Broke the link that made them man and wife!</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent4">In a handsome furnished chamber</div>
+    <div class="verse indent6">Stand betrayer and betrayed;</div>
+    <div class="verse indent4">He is scornful; she is pleading;</div>
+    <div class="verse indent6">Ah! what havoc Time has made!</div>
+    <div class="verse indent4">She is white-faced, trembling, hopeless,</div>
+    <div class="verse indent6">And she feels dishonor’s shame,</div>
+    <div class="verse indent4">For the man who stands before her,</div>
+    <div class="verse indent6">She has ruined a husband’s name;</div>
+    <div class="verse indent4">He, grown weary of his victim,</div>
+    <div class="verse indent6">Says, “’Tis better we should part!”</div>
+    <div class="verse indent4">In his soul there is no pity</div>
+    <div class="verse indent6">For her crushed and breaking heart.—<span class="smcap">Chorus.</span></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent4">In the streets of a great city,</div>
+    <div class="verse indent6">One cold, bitter winter’s night,</div>
+    <div class="verse indent4">On a door-step lies a woman,</div>
+    <div class="verse indent6">’Round her fall the snowflakes white;</div>
+    <div class="verse indent4">By her side a man is kneeling,</div>
+    <div class="verse indent6">“Mary!” is his bitter cry—</div>
+    <div class="verse indent4">“You for months I have been seeking,</div>
+    <div class="verse indent6">Now I’ve found you, do not die!”</div>
+    <div class="verse indent4">Hear her pleading for forgiveness,</div>
+    <div class="verse indent6">As he clasps her to his breast,</div>
+    <div class="verse indent4">Just one kiss, one murmured “good-bye!”</div>
+    <div class="verse indent6">And her soul in death finds rest.—<span class="smcap">Chorus.</span></div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1892, by <span class="smcap">Frank Tousey</span>. The complete words
+and music of this song will be sent by mail for 20 cents.
+Address, <span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North
+Moore Street, New York. Catalogues sent free upon application.</p>
+</div>
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_31">[Pg 31]</span></p>
+
+<h2 class="nobreak" id="SCENES_FROM_THE_DRAMA_OF_LIFE">SCENES FROM THE DRAMA OF LIFE.</h2>
+</div>
+
+<p class="center">Written by Norton Atkins. Composed by Felix McGlennon.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent2">Life is but a mighty drama,</div>
+    <div class="verse indent4">Wherein each must play a part;</div>
+    <div class="verse indent2">Some with happy, smiling features,</div>
+    <div class="verse indent4">Others with an aching heart.</div>
+    <div class="verse indent2">When night falls upon the city,</div>
+    <div class="verse indent4">See a man with darken’d face,</div>
+    <div class="verse indent2">He’s a burglar and his object</div>
+    <div class="verse indent4">Breaking in this rich man’s place.</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">See with what vigor his “jimmy” he plies,</div>
+    <div class="verse indent0">Leaps thro’ the window, “Now for it!” he cries,</div>
+    <div class="verse indent0">“Hark! what is that? an alarm, a surprise,”</div>
+    <div class="verse indent12">He mutters with terror now rife.</div>
+    <div class="verse indent0">Then comes a flash, a report of a gun,</div>
+    <div class="verse indent0">A man on his knees crying, “What have I done!</div>
+    <div class="verse indent0">Oh God! I have kill’d him, the scapegrace, my son!”</div>
+    <div class="verse indent12">That’s a scene from the Drama of Life!</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent2">’Tis the gory field of battle,</div>
+    <div class="verse indent4">Where the conflict rages high,</div>
+    <div class="verse indent2">And the two opposing armies</div>
+    <div class="verse indent4">Now have sworn to do or die.</div>
+    <div class="verse indent2">See this brave young private soldier,</div>
+    <div class="verse indent4">’Mid the crash of shot and shell,</div>
+    <div class="verse indent2">He has proved himself a hero,</div>
+    <div class="verse indent4">Bravely he has fought and well.</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">Wounded he lies when the battle is o’er,</div>
+    <div class="verse indent0">Thinking of those on a far-distant shore,</div>
+    <div class="verse indent0">Thinking of those he will see never more,</div>
+    <div class="verse indent12">Thinking of his children and wife.</div>
+    <div class="verse indent0">“Merciful God! who is Great and All-wise,</div>
+    <div class="verse indent0">Save them from danger!” he tearfully cries,</div>
+    <div class="verse indent0">One murmur’d prayer and he falls back and dies,</div>
+    <div class="verse indent12">That’s a scene from the Drama of Life!</div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1894, by <span class="smcap">Frank Tousey</span>. Entered at
+Stationers’ Hall, London, England. The complete words and
+music of this song will be sent by mail for 20 cents. Address,
+<span class="smcap">Frank Tousey</span>, Publisher, 34 and 36 North Moore Street,
+New York. Catalogues sent free upon application.</p>
+</div>
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<p><span class="pagenum" id="Page_32">[Pg 32]</span></p>
+
+<h2 class="nobreak" id="ACTIONS_SPEAK_LOUDER_THAN_WORDS">ACTIONS SPEAK LOUDER THAN WORDS.</h2>
+</div>
+
+<p class="center">Words by George Horncastle. Music by Felix McGlennon.</p>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent8">Just upon the stroke of midnight,</div>
+    <div class="verse indent10">See a man walk down the street,</div>
+    <div class="verse indent8">He for work all day has hunted,</div>
+    <div class="verse indent10">Is heart-broken, sore of feet;</div>
+    <div class="verse indent8">He looks for a lowly lodging,</div>
+    <div class="verse indent10">When there comes a piteous cry</div>
+    <div class="verse indent8">From a woman, “I am starving,</div>
+    <div class="verse indent10">Help me, sir, or I shall die!”</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">He thinks of that coin, his night’s lodging ’twill pay,</div>
+    <div class="verse indent2">Then looks on that face and its tresses so gray,</div>
+    <div class="verse indent0">Then in charity gives his last penny away,</div>
+    <div class="verse indent2">Actions speak louder than words.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent8">From the club at early morning,</div>
+    <div class="verse indent10">Someone’s husband’s just come home,</div>
+    <div class="verse indent8">He’s been gone six hours and over,</div>
+    <div class="verse indent10">Went out for ten minutes’ roam;</div>
+    <div class="verse indent8">Thus he’s greeted by his spousey:</div>
+    <div class="verse indent10">“Where have you been all the night?</div>
+    <div class="verse indent8">Can’t you speak, you helpless idiot?</div>
+    <div class="verse indent10">Tell me, are you speechless tight?”</div>
+  </div>
+  <div class="stanza">
+<p class="center"><span class="smcap">Chorus.</span></p>
+    <div class="verse indent0">He gives a sly wink, then he throws down his hat,</div>
+    <div class="verse indent2">Tries to pull off his boots, then he tumbles down flat,</div>
+    <div class="verse indent0">Hangs his watch on the floor, goes to sleep on the cat,</div>
+    <div class="verse indent2">Actions speak louder than words.</div>
+  </div>
+</div>
+</div>
+
+<div class="blockquot">
+
+<p>Copyright, 1891, by <span class="smcap">Frank Tousey</span>. Entered at Librarian
+of Congress, Washington, D. C., U. S. A., and Stationer’s Hall,
+London, England. The complete words and music of this song will
+be sent by mail for 10 cents. Address, <span class="smcap">Frank Tousey</span>,
+Publisher, 34 and 36 North Moore Street, New York. Catalogues
+sent free upon application.</p>
+</div>
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter">
+<figure class="figcenter illowp53" id="backcover" style="max-width: 115.5em;">
+  <img class="w100" src="images/backcover.jpg" alt="">
+</figure>
+</div>
+
+
+<hr class="chap x-ebookmaker-drop">
+
+<div class="chapter transnote">
+<h2 class="nobreak" id="Transcribers_Notes">Transcriber’s Notes</h2>
+
+<p>Obvious typographical errors have been silently corrected. Variations
+in hyphenation and accents have been standardised but all other
+spelling and punctuation remains unchanged.</p>
+</div>
+<div style='display:block; margin-top:4em'>*** END OF THE PROJECT GUTENBERG EBOOK THE BARNUM &AMP; BAILEY GREATEST SHOW ON EARTH SONGSTER ***</div>
+<div style='text-align:left'>
+
+<div style='display:block; margin:1em 0'>
+Updated editions will replace the previous one&#8212;the old editions will
+be renamed.
+</div>
+
+<div style='display:block; margin:1em 0'>
+Creating the works from print editions not protected by U.S. copyright
+law means that no one owns a United States copyright in these works,
+so the Foundation (and you!) can copy and distribute it in the United
+States without permission and without paying copyright
+royalties. Special rules, set forth in the General Terms of Use part
+of this license, apply to copying and distributing Project
+Gutenberg&#8482; electronic works to protect the PROJECT GUTENBERG&#8482;
+concept and trademark. Project Gutenberg is a registered trademark,
+and may not be used if you charge for an eBook, except by following
+the terms of the trademark license, including paying royalties for use
+of the Project Gutenberg trademark. If you do not charge anything for
+copies of this eBook, complying with the trademark license is very
+easy. You may use this eBook for nearly any purpose such as creation
+of derivative works, reports, performances and research. Project
+Gutenberg eBooks may be modified and printed and given away&#8212;you may
+do practically ANYTHING in the United States with eBooks not protected
+by U.S. copyright law. Redistribution is subject to the trademark
+license, especially commercial redistribution.
+</div>
+
+<div style='margin-top:1em; font-size:1.1em; text-align:center'>START: FULL LICENSE</div>
+<div style='text-align:center;font-size:0.9em'>THE FULL PROJECT GUTENBERG LICENSE</div>
+<div style='text-align:center;font-size:0.9em'>PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK</div>
+
+<div style='display:block; margin:1em 0'>
+To protect the Project Gutenberg&#8482; mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase &#8220;Project
+Gutenberg&#8221;), you agree to comply with all the terms of the Full
+Project Gutenberg&#8482; License available with this file or online at
+www.gutenberg.org/license.
+</div>
+
+<div style='display:block; font-size:1.1em; margin:1em 0; font-weight:bold'>
+Section 1. General Terms of Use and Redistributing Project Gutenberg&#8482; electronic works
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.A. By reading or using any part of this Project Gutenberg&#8482;
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement. If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or
+destroy all copies of Project Gutenberg&#8482; electronic works in your
+possession. If you paid a fee for obtaining a copy of or access to a
+Project Gutenberg&#8482; electronic work and you do not agree to be bound
+by the terms of this agreement, you may obtain a refund from the person
+or entity to whom you paid the fee as set forth in paragraph 1.E.8.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.B. &#8220;Project Gutenberg&#8221; is a registered trademark. It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement. There are a few
+things that you can do with most Project Gutenberg&#8482; electronic works
+even without complying with the full terms of this agreement. See
+paragraph 1.C below. There are a lot of things you can do with Project
+Gutenberg&#8482; electronic works if you follow the terms of this
+agreement and help preserve free future access to Project Gutenberg&#8482;
+electronic works. See paragraph 1.E below.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.C. The Project Gutenberg Literary Archive Foundation (&#8220;the
+Foundation&#8221; or PGLAF), owns a compilation copyright in the collection
+of Project Gutenberg&#8482; electronic works. Nearly all the individual
+works in the collection are in the public domain in the United
+States. If an individual work is unprotected by copyright law in the
+United States and you are located in the United States, we do not
+claim a right to prevent you from copying, distributing, performing,
+displaying or creating derivative works based on the work as long as
+all references to Project Gutenberg are removed. Of course, we hope
+that you will support the Project Gutenberg&#8482; mission of promoting
+free access to electronic works by freely sharing Project Gutenberg&#8482;
+works in compliance with the terms of this agreement for keeping the
+Project Gutenberg&#8482; name associated with the work. You can easily
+comply with the terms of this agreement by keeping this work in the
+same format with its attached full Project Gutenberg&#8482; License when
+you share it without charge with others.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.D. The copyright laws of the place where you are located also govern
+what you can do with this work. Copyright laws in most countries are
+in a constant state of change. If you are outside the United States,
+check the laws of your country in addition to the terms of this
+agreement before downloading, copying, displaying, performing,
+distributing or creating derivative works based on this work or any
+other Project Gutenberg&#8482; work. The Foundation makes no
+representations concerning the copyright status of any work in any
+country other than the United States.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.E. Unless you have removed all references to Project Gutenberg:
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.E.1. The following sentence, with active links to, or other
+immediate access to, the full Project Gutenberg&#8482; License must appear
+prominently whenever any copy of a Project Gutenberg&#8482; work (any work
+on which the phrase &#8220;Project Gutenberg&#8221; appears, or with which the
+phrase &#8220;Project Gutenberg&#8221; is associated) is accessed, displayed,
+performed, viewed, copied or distributed:
+</div>
+
+<blockquote>
+  <div style='display:block; margin:1em 0'>
+    This eBook is for the use of anyone anywhere in the United States and most
+    other parts of the world at no cost and with almost no restrictions
+    whatsoever. You may copy it, give it away or re-use it under the terms
+    of the Project Gutenberg License included with this eBook or online
+    at <a href="https://www.gutenberg.org">www.gutenberg.org</a>. If you
+    are not located in the United States, you will have to check the laws
+    of the country where you are located before using this eBook.
+  </div>
+</blockquote>
+
+<div style='display:block; margin:1em 0'>
+1.E.2. If an individual Project Gutenberg&#8482; electronic work is
+derived from texts not protected by U.S. copyright law (does not
+contain a notice indicating that it is posted with permission of the
+copyright holder), the work can be copied and distributed to anyone in
+the United States without paying any fees or charges. If you are
+redistributing or providing access to a work with the phrase &#8220;Project
+Gutenberg&#8221; associated with or appearing on the work, you must comply
+either with the requirements of paragraphs 1.E.1 through 1.E.7 or
+obtain permission for the use of the work and the Project Gutenberg&#8482;
+trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.E.3. If an individual Project Gutenberg&#8482; electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any
+additional terms imposed by the copyright holder. Additional terms
+will be linked to the Project Gutenberg&#8482; License for all works
+posted with the permission of the copyright holder found at the
+beginning of this work.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.E.4. Do not unlink or detach or remove the full Project Gutenberg&#8482;
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg&#8482;.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.E.5. Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg&#8482; License.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.E.6. You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including
+any word processing or hypertext form. However, if you provide access
+to or distribute copies of a Project Gutenberg&#8482; work in a format
+other than &#8220;Plain Vanilla ASCII&#8221; or other format used in the official
+version posted on the official Project Gutenberg&#8482; website
+(www.gutenberg.org), you must, at no additional cost, fee or expense
+to the user, provide a copy, a means of exporting a copy, or a means
+of obtaining a copy upon request, of the work in its original &#8220;Plain
+Vanilla ASCII&#8221; or other form. Any alternate format must include the
+full Project Gutenberg&#8482; License as specified in paragraph 1.E.1.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.E.7. Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg&#8482; works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.E.8. You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg&#8482; electronic works
+provided that:
+</div>
+
+<div style='margin-left:0.7em;'>
+    <div style='text-indent:-0.7em'>
+        &#8226; You pay a royalty fee of 20% of the gross profits you derive from
+        the use of Project Gutenberg&#8482; works calculated using the method
+        you already use to calculate your applicable taxes. The fee is owed
+        to the owner of the Project Gutenberg&#8482; trademark, but he has
+        agreed to donate royalties under this paragraph to the Project
+        Gutenberg Literary Archive Foundation. Royalty payments must be paid
+        within 60 days following each date on which you prepare (or are
+        legally required to prepare) your periodic tax returns. Royalty
+        payments should be clearly marked as such and sent to the Project
+        Gutenberg Literary Archive Foundation at the address specified in
+        Section 4, &#8220;Information about donations to the Project Gutenberg
+        Literary Archive Foundation.&#8221;
+    </div>
+
+    <div style='text-indent:-0.7em'>
+        &#8226; You provide a full refund of any money paid by a user who notifies
+        you in writing (or by e-mail) within 30 days of receipt that s/he
+        does not agree to the terms of the full Project Gutenberg&#8482;
+        License. You must require such a user to return or destroy all
+        copies of the works possessed in a physical medium and discontinue
+        all use of and all access to other copies of Project Gutenberg&#8482;
+        works.
+    </div>
+
+    <div style='text-indent:-0.7em'>
+        &#8226; You provide, in accordance with paragraph 1.F.3, a full refund of
+        any money paid for a work or a replacement copy, if a defect in the
+        electronic work is discovered and reported to you within 90 days of
+        receipt of the work.
+    </div>
+
+    <div style='text-indent:-0.7em'>
+        &#8226; You comply with all other terms of this agreement for free
+        distribution of Project Gutenberg&#8482; works.
+    </div>
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.E.9. If you wish to charge a fee or distribute a Project
+Gutenberg&#8482; electronic work or group of works on different terms than
+are set forth in this agreement, you must obtain permission in writing
+from the Project Gutenberg Literary Archive Foundation, the manager of
+the Project Gutenberg&#8482; trademark. Contact the Foundation as set
+forth in Section 3 below.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.F.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.F.1. Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+works not protected by U.S. copyright law in creating the Project
+Gutenberg&#8482; collection. Despite these efforts, Project Gutenberg&#8482;
+electronic works, and the medium on which they may be stored, may
+contain &#8220;Defects,&#8221; such as, but not limited to, incomplete, inaccurate
+or corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged disk or
+other medium, a computer virus, or computer codes that damage or
+cannot be read by your equipment.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the &#8220;Right
+of Replacement or Refund&#8221; described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg&#8482; trademark, and any other party distributing a Project
+Gutenberg&#8482; electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from. If you
+received the work on a physical medium, you must return the medium
+with your written explanation. The person or entity that provided you
+with the defective work may elect to provide a replacement copy in
+lieu of a refund. If you received the work electronically, the person
+or entity providing it to you may choose to give you a second
+opportunity to receive the work electronically in lieu of a refund. If
+the second copy is also defective, you may demand a refund in writing
+without further opportunities to fix the problem.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.F.4. Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you &#8216;AS-IS&#8217;, WITH NO
+OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.F.5. Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of
+damages. If any disclaimer or limitation set forth in this agreement
+violates the law of the state applicable to this agreement, the
+agreement shall be interpreted to make the maximum disclaimer or
+limitation permitted by the applicable state law. The invalidity or
+unenforceability of any provision of this agreement shall not void the
+remaining provisions.
+</div>
+
+<div style='display:block; margin:1em 0'>
+1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg&#8482; electronic works in
+accordance with this agreement, and any volunteers associated with the
+production, promotion and distribution of Project Gutenberg&#8482;
+electronic works, harmless from all liability, costs and expenses,
+including legal fees, that arise directly or indirectly from any of
+the following which you do or cause to occur: (a) distribution of this
+or any Project Gutenberg&#8482; work, (b) alteration, modification, or
+additions or deletions to any Project Gutenberg&#8482; work, and (c) any
+Defect you cause.
+</div>
+
+<div style='display:block; font-size:1.1em; margin:1em 0; font-weight:bold'>
+Section 2. Information about the Mission of Project Gutenberg&#8482;
+</div>
+
+<div style='display:block; margin:1em 0'>
+Project Gutenberg&#8482; is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of
+computers including obsolete, old, middle-aged and new computers. It
+exists because of the efforts of hundreds of volunteers and donations
+from people in all walks of life.
+</div>
+
+<div style='display:block; margin:1em 0'>
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg&#8482;&#8217;s
+goals and ensuring that the Project Gutenberg&#8482; collection will
+remain freely available for generations to come. In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg&#8482; and future
+generations. To learn more about the Project Gutenberg Literary
+Archive Foundation and how your efforts and donations can help, see
+Sections 3 and 4 and the Foundation information page at www.gutenberg.org.
+</div>
+
+<div style='display:block; font-size:1.1em; margin:1em 0; font-weight:bold'>
+Section 3. Information about the Project Gutenberg Literary Archive Foundation
+</div>
+
+<div style='display:block; margin:1em 0'>
+The Project Gutenberg Literary Archive Foundation is a non-profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service. The Foundation&#8217;s EIN or federal tax identification
+number is 64-6221541. Contributions to the Project Gutenberg Literary
+Archive Foundation are tax deductible to the full extent permitted by
+U.S. federal laws and your state&#8217;s laws.
+</div>
+
+<div style='display:block; margin:1em 0'>
+The Foundation&#8217;s business office is located at 809 North 1500 West,
+Salt Lake City, UT 84116, (801) 596-1887. Email contact links and up
+to date contact information can be found at the Foundation&#8217;s website
+and official page at www.gutenberg.org/contact
+</div>
+
+<div style='display:block; font-size:1.1em; margin:1em 0; font-weight:bold'>
+Section 4. Information about Donations to the Project Gutenberg Literary Archive Foundation
+</div>
+
+<div style='display:block; margin:1em 0'>
+Project Gutenberg&#8482; depends upon and cannot survive without widespread
+public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine-readable form accessible by the widest
+array of equipment including outdated equipment. Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+</div>
+
+<div style='display:block; margin:1em 0'>
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States. Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements. We do not solicit donations in locations
+where we have not received written confirmation of compliance. To SEND
+DONATIONS or determine the status of compliance for any particular state
+visit <a href="https://www.gutenberg.org/donate/">www.gutenberg.org/donate</a>.
+</div>
+
+<div style='display:block; margin:1em 0'>
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+</div>
+
+<div style='display:block; margin:1em 0'>
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States. U.S. laws alone swamp our small staff.
+</div>
+
+<div style='display:block; margin:1em 0'>
+Please check the Project Gutenberg web pages for current donation
+methods and addresses. Donations are accepted in a number of other
+ways including checks, online payments and credit card donations. To
+donate, please visit: www.gutenberg.org/donate
+</div>
+
+<div style='display:block; font-size:1.1em; margin:1em 0; font-weight:bold'>
+Section 5. General Information About Project Gutenberg&#8482; electronic works
+</div>
+
+<div style='display:block; margin:1em 0'>
+Professor Michael S. Hart was the originator of the Project
+Gutenberg&#8482; concept of a library of electronic works that could be
+freely shared with anyone. For forty years, he produced and
+distributed Project Gutenberg&#8482; eBooks with only a loose network of
+volunteer support.
+</div>
+
+<div style='display:block; margin:1em 0'>
+Project Gutenberg&#8482; eBooks are often created from several printed
+editions, all of which are confirmed as not protected by copyright in
+the U.S. unless a copyright notice is included. Thus, we do not
+necessarily keep eBooks in compliance with any particular paper
+edition.
+</div>
+
+<div style='display:block; margin:1em 0'>
+Most people start at our website which has the main PG search
+facility: <a href="https://www.gutenberg.org">www.gutenberg.org</a>.
+</div>
+
+<div style='display:block; margin:1em 0'>
+This website includes information about Project Gutenberg&#8482;,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+</div>
+
+</div>
+</body>
+</html>
